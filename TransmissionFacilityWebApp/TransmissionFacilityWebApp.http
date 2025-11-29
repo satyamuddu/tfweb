@@ -1,0 +1,6 @@
+@TransmissionFacilityWebApp_HostAddress = http://localhost:5089
+
+GET {{TransmissionFacilityWebApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
