@@ -32,13 +32,36 @@ public class TransmissionFacilityDbContext : DbContext
                         Console.WriteLine($"File not found: {filePath}");
                 }
         }
-        public async Task<RatingsData> GetAllRatingsDataAsync()
+        public async Task<RatingsData> GetTransmissionFacilityByIdAsync(string id)
         {
-
-                ConvertXML2Json();
                 if (ratingsData == null)
                 {
-                        throw new InvalidOperationException("Ratings data could not be loaded.");
+                        ConvertXML2Json();
+                        if (ratingsData == null)
+                        {
+                                throw new InvalidOperationException("Ratings data could not be loaded.");
+                        }
+                }
+                var facility = ratingsData.transmissionFacilities.FirstOrDefault(f => f.id == id);
+                if (facility == null)
+                {
+                        throw new KeyNotFoundException($"Transmission facility with ID {id} not found.");
+                }
+                return await Task.FromResult(new RatingsData
+                {
+                        transmissionFacilities = new List<TransmissionFacilities> { facility }
+                });
+        }
+        
+        public async Task<RatingsData> GetAllRatingsDataAsync()
+        {
+                if (ratingsData == null)
+                {
+                        ConvertXML2Json();
+                        if (ratingsData == null)
+                        {
+                                throw new InvalidOperationException("Ratings data could not be loaded.");
+                        }
                 }
                 // Simulate async data retrieval with Task.FromResult
                 return await Task.FromResult(ratingsData);

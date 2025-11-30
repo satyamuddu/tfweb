@@ -27,4 +27,12 @@ public class TransmissionFacilityController : ControllerBase
         var result = await _mediator.Send(query);
         return Ok(result);
     }
+    // GET /api/transmissionfacility/{id}
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetTransmissionFacilityById(string id)
+    {
+        var query = new GetTransmissionFacilityByIdQuery(id);
+        var result = await _mediator.Send(query);
+        return Ok(result); 
+    }
 }

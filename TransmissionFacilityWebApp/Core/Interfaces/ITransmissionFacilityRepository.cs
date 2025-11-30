@@ -7,4 +7,5 @@ public interface ITransmissionFacilityRepository
 {
     Task<IEnumerable<TransmissionFacilities>> GetTransmissionFacilitiesAsync();
     Task<RatingsData> GetAllRatingsDataAsync();
+    Task<RatingsData> GetTransmissionFacilityByIdQueryAsync(string id);
 }

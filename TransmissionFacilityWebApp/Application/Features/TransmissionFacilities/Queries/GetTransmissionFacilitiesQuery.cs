@@ -7,3 +7,5 @@ namespace TransmissionFacilityWebApp.Application.Features.TransmissionFacilities
 public record GetTransmissionFacilitiesQuery() : IRequest<IEnumerable<TransmissionFacilityDto>>;
 
 public record GetAllRatingsDataQuery() : IRequest<RatingsDataDto>;
+
+public record GetTransmissionFacilityByIdQuery  (string id) : IRequest<RatingsDataDto>;
