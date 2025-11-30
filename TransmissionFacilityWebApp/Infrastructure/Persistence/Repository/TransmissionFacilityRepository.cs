@@ -15,7 +15,9 @@ namespace TransmissionFacilityWebApp.Infrastructure.Persistence.Repository
         {
             _dbContext = dbContext;
         }
-        public async Task<IEnumerable<TransmissionFacilities>> GetAllTransmissionFacilitiesAsync() => await _dbContext.GetAllTransmissionFacilitiesAsync();
        
+        public async Task<IEnumerable<TransmissionFacilities>> GetTransmissionFacilitiesAsync() => await _dbContext.GetTransmissionFacilitiesAsync();
+        
+        public async Task<RatingsData> GetAllRatingsDataAsync() => await _dbContext.GetAllRatingsDataAsync();
     }
 }

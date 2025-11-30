@@ -7,23 +7,53 @@ namespace TransmissionFacilityWebApp.Infrastructure.Persistence;
 
 public class TransmissionFacilityDbContext : DbContext
 {
+        CimXml2Json.RatingsData? ratingsData;
 
         public TransmissionFacilityDbContext()
         {
         }
-        public async Task<IEnumerable<TransmissionFacilities>> GetAllTransmissionFacilitiesAsync()
-        {
-                
 
-                var transmissionFacilities = new List<TransmissionFacilities>() 
+        private void ConvertXML2Json()
+        {
+                string file = "esca60_gev_original.xml";
+
+                string filePath = Path.Combine(Environment.CurrentDirectory, "data", file);
+                if (File.Exists(filePath))
+                {
+                        CimXml2Json.TransformCim2Json transformCim2Json = new CimXml2Json.TransformCim2Json();
+                        transformCim2Json.Parse(filePath);
+                        transformCim2Json.ToJson();
+                        string outputPath = Path.Combine(Environment.CurrentDirectory, "output", "ratings.json");
+                        transformCim2Json.WriteToFile(outputPath);
+                        ratingsData = transformCim2Json.GetRatingsData();
+                }
+                else
+                {
+                        Console.WriteLine($"File not found: {filePath}");
+                }
+        }
+        public async Task<RatingsData> GetAllRatingsDataAsync()
+        {
+
+                ConvertXML2Json();
+                if (ratingsData == null)
+                {
+                        throw new InvalidOperationException("Ratings data could not be loaded.");
+                }
+                // Simulate async data retrieval with Task.FromResult
+                return await Task.FromResult(ratingsData);
+        }
+        public async Task<IEnumerable<TransmissionFacilities>> GetTransmissionFacilitiesAsync()
+        {
+                var transmissionFacilities = new List<TransmissionFacilities>()
                 {
                     new TransmissionFacilities()
                     {
-                        id = "1", segments = new List<Segment>() 
-                        { 
+                        id = "1", segments = new List<Segment>()
+                        {
                                 new Segment()
-                                { 
-                                        id = "S1", ratings = new List<Rating>() 
+                                {
+                                        id = "S1", ratings = new List<Rating>()
                                         {
                                                 new Rating()
                                                 {
@@ -36,8 +66,8 @@ public class TransmissionFacilityDbContext : DbContext
                                                         },
                                                         metadata = new Metadata(){ sourceSystem = "SystemA", calculationMethod = "Method1" }
                                                 }
-                                        } 
-                                } 
+                                        }
+                                }
                         },
                     }
                 };

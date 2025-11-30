@@ -10,14 +10,20 @@ namespace TransmissionFacilityWebApp.Controllers;
 public class TransmissionFacilityController : ControllerBase
 {
     private readonly  IMediator _mediator;
-    public TransmissionFacilityController(IMediator mediator)
-    {
-        _mediator = mediator;
-    }
+    public TransmissionFacilityController(IMediator mediator)=>   _mediator = mediator;
+    // GET /api/transmissionfacility
     [HttpGet]
     public async Task<IActionResult> GetTransmissionFacilities()
     {
         var query = new GetTransmissionFacilitiesQuery();
+        var result = await _mediator.Send(query);
+        return Ok(result);
+    }
+    // GET /api/transmissionfacility/all
+    [HttpGet("all")]
+    public async Task<IActionResult> GetAllRatingsDataQuery()
+    {
+        var query = new GetAllRatingsDataQuery();
         var result = await _mediator.Send(query);
         return Ok(result);
     }

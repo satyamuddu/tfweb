@@ -5,5 +5,6 @@ namespace TransmissionFacilityWebApp.Core.Interfaces;
 
 public interface ITransmissionFacilityRepository
 {
-    Task<IEnumerable<TransmissionFacilities>> GetAllTransmissionFacilitiesAsync();
+    Task<IEnumerable<TransmissionFacilities>> GetTransmissionFacilitiesAsync();
+    Task<RatingsData> GetAllRatingsDataAsync();
 }
