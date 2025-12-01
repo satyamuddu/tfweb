@@ -19,7 +19,7 @@ Log.Information("Starting up the application...");
 builder.Services.AddScoped<ITransmissionFacilityRepository, TransmissionFacilityRepository>();
 
 //mediatR registration
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Program>());  
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Program>());
 //builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining(typeof(TransmissionFacilityWebApp.Application.Features.TransmissionFacilities.Queries.GetTransmissionFacilitiesQuery)));
 
 // Add db context registration
