@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\dotnetprojects\GIT\CimXml2Json\CimXml2Json.csproj" />
+    <ProjectReference Include="..\CimXml2Json\CimXml2Json.csproj" />
   </ItemGroup>
 
 </Project>
