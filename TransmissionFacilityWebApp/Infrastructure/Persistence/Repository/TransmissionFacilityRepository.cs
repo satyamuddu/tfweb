@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using TransmissionFacilityWebApp.Application.Features.TransmissionFacilities.Dto;
 using TransmissionFacilityWebApp.Core.Interfaces;
 using CimXml2Json;
+using TransmissionFacilityWebApp.Infrastructure.DBContext;
 
 namespace TransmissionFacilityWebApp.Infrastructure.Persistence.Repository
 {
@@ -15,9 +16,9 @@ namespace TransmissionFacilityWebApp.Infrastructure.Persistence.Repository
         {
             _dbContext = dbContext;
         }
-       
+
         public async Task<IEnumerable<TransmissionFacilities>> GetTransmissionFacilitiesAsync() => await _dbContext.GetTransmissionFacilitiesAsync();
-        
+
         public async Task<RatingsData> GetAllRatingsDataAsync() => await _dbContext.GetAllRatingsDataAsync();
         public async Task<RatingsData> GetTransmissionFacilityByIdQueryAsync(string id) => await _dbContext.GetTransmissionFacilityByIdAsync(id);
     }

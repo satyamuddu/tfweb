@@ -2,6 +2,7 @@
 using Serilog;
 using System.Reflection;
 using TransmissionFacilityWebApp.Core.Interfaces;
+using TransmissionFacilityWebApp.Infrastructure.DBContext;
 using TransmissionFacilityWebApp.Infrastructure.Persistence.Repository;
 using TransmissionFacilityWebApp.Infrastructure.Persistence;
 
@@ -17,6 +18,7 @@ Log.Information("Starting up the application...");
 
 //dependency injections would go here
 builder.Services.AddScoped<ITransmissionFacilityRepository, TransmissionFacilityRepository>();
+builder.Services.AddScoped<IRatingProposalRepository, RatingProposalRepository>();
 
 //mediatR registration
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Program>());
@@ -24,6 +26,7 @@ builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Pr
 
 // Add db context registration
 builder.Services.AddDbContext<TransmissionFacilityDbContext>();
+builder.Services.AddDbContext<RatingProposalDbContext>();
 
 builder.Services.AddControllers();
 // Add services to the container.

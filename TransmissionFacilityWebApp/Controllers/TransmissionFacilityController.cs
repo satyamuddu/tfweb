@@ -9,8 +9,8 @@ namespace TransmissionFacilityWebApp.Controllers;
 [Route("api/[controller]")]
 public class TransmissionFacilityController : ControllerBase
 {
-    private readonly  IMediator _mediator;
-    public TransmissionFacilityController(IMediator mediator)=>   _mediator = mediator;
+    private readonly IMediator _mediator;
+    public TransmissionFacilityController(IMediator mediator) => _mediator = mediator;
     // GET /api/transmissionfacility
     [HttpGet]
     public async Task<IActionResult> GetTransmissionFacilities()
@@ -33,6 +33,6 @@ public class TransmissionFacilityController : ControllerBase
     {
         var query = new GetTransmissionFacilityByIdQuery(id);
         var result = await _mediator.Send(query);
-        return Ok(result); 
+        return Ok(result);
     }
 }
