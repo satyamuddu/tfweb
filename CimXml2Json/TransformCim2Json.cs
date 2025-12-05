@@ -1,6 +1,7 @@
 using System;
 using System.Xml.Linq;
 namespace CimXml2Json;
+
 using AsyncLogger;
 
 public class TransformCim2Json
@@ -8,6 +9,7 @@ public class TransformCim2Json
     private Dictionary<string, Dictionary<string, XElement>> cimXElements;
     RatingsData ratingsData = new();
     string jsonFile = "ratings.json";
+
     Stack<string> logStrings = new Stack<string>();
     public RatingsData GetRatingsData() => ratingsData;
 
@@ -24,15 +26,23 @@ public class TransformCim2Json
         parser.LoadXml(cimXmlFilePath);
         cimXElements = parser.cimXElements;
         logger.Log(LogLevel.Info, $"Loaded CIM XML file: {cimXmlFilePath}");
-
     }
-    public void ToJson()
+    public void ToJson(string geographicalRegion = "")
     {
-    
-        var Lines = cimXElements.ContainsKey("Line") ?
-            cimXElements["Line"].Values.ToDictionary(x => XElementHelper.GetId(x), x => x) :
-            new Dictionary<string, XElement>();
-
+        Dictionary<string, XElement> Lines;
+        if (!string.IsNullOrEmpty(geographicalRegion))
+        {
+            Lines = cimXElements.ContainsKey("Line") ?
+                   cimXElements["Line"].Values.Where(x => XElementHelper.GetGeographicalRegion(x) == geographicalRegion)
+                   .ToDictionary(x => XElementHelper.GetId(x), x => x) :
+                   new Dictionary<string, XElement>();
+        }
+        else
+        {
+            Lines = cimXElements.ContainsKey("Line") ?
+                 cimXElements["Line"].Values.ToDictionary(x => XElementHelper.GetId(x), x => x) :
+                 new Dictionary<string, XElement>();
+        }
         var ACLineSegmentList = cimXElements.ContainsKey("ACLineSegment") ?
         cimXElements["ACLineSegment"].Values.Where(acs =>
             Lines.Any(line =>
@@ -58,8 +68,6 @@ public class TransformCim2Json
                 XElementHelper.GetEnumValue(olt, "OperationalLimitType.Direction") == "AbsoluteValue").ToList() :
             new List<XElement>();
 
-
-
         foreach (var line in Lines)
         {
             TransmissionFacilities tf = new TransmissionFacilities();
@@ -70,12 +78,9 @@ public class TransformCim2Json
                 ratingsData.transmissionFacilities.Add(tf);
             logger.Log(LogLevel.Info, $"Added Transmission Facility: {tf.id} with {tf.segments.Count} segments.");
         }
-
         AddRatingsData();
-
-    
     }
-    public void WriteToFile(string outputPath )
+    public void WriteToFile(string outputPath)
     {
         string json = System.Text.Json.JsonSerializer.Serialize(ratingsData, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
         File.WriteAllText(outputPath, json);
@@ -144,7 +149,7 @@ public class TransformCim2Json
         {
             logStrings.Push($"No valid Operational Limits found for Segment AliasName = {segment.id}.");
             //string prefix = new string('\t', 2); // 2 tabs\
-       
+
             foreach (var log in logStrings)
             {
                 logger.Log(LogLevel.Warning, log);

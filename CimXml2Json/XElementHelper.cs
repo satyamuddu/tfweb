@@ -34,6 +34,16 @@ public class XElementHelper
         return string.Empty;
     }
 
+    internal static string GetGeographicalRegion(XElement x)
+    {
+        string aliasName = GetAliasName(x);
+        if (!string.IsNullOrEmpty(aliasName))
+        {
+            return aliasName.Split('_')[0];
+        }
+        return string.Empty;
+    }
+
     internal static string GetId(XElement oltype)
     {
         if (oltype.FirstAttribute!.Name.LocalName == "ID")
