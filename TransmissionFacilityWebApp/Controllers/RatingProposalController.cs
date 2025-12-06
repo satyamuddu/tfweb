@@ -21,13 +21,20 @@ namespace TransmissionFacilityWebApp.Controllers
             var result = await _mediator.Send(query);
             return Ok(result);
         }
-        [HttpGet("{co}/{bydate}")]
+        // GET /api/ratingproposal/{bydate}?co=NEEPOOL&fromDate=yyyy-MM-dd&toDate=yyyy-MM-dd
+        [HttpGet("{bydate}")]
         public async Task<IActionResult> GetRatingsByDateQuery([FromQuery] string co, [FromQuery] DateTime fromDate, [FromQuery] DateTime toDate)
         {
+            // Validate
+            if (fromDate == null || toDate == null)
+                return BadRequest("fromDate and toDate are required");
+
+            if (toDate < fromDate)
+                return BadRequest("toDate must be greater than fromDate");
+
             var query = new Application.Features.TransmissionFacilities.Queries.GetRatingsByDateQuery(fromDate, toDate);
             var result = await _mediator.Send(query);
             return Ok(result);
         }
-
     }
 }

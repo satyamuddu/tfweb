@@ -7,12 +7,18 @@ using AsyncLogger;
 public class TransformCim2Json
 {
     private Dictionary<string, Dictionary<string, XElement>> cimXElements;
-    RatingsData ratingsData = new();
     string jsonFile = "ratings.json";
-
+    Dictionary<string, string> CoOutputFiles = new Dictionary<string, string>();
     Stack<string> logStrings = new Stack<string>();
-    public RatingsData GetRatingsData() => ratingsData;
+    public RatingsData GetRatingsData() => null;
 
+    public TransformCim2Json()
+    {
+        string nepool = "~/Documents/tfweb/CimXml2JsonTest/NEPOOL_ratings.json";
+        string ecar = "~/Documents/tfweb/CimXml2JsonTest/ECAR_ratings.json";
+        CoOutputFiles["NEPOOL"] = nepool;
+        CoOutputFiles["ECAR"] = ecar;
+    }
     AsyncFileLogger logger = new AsyncFileLogger(
             logDirectory: "Logs",
             maxFileSizeBytes: 500_000,
@@ -31,7 +37,7 @@ public class TransformCim2Json
 
     }
 
-    public void DuplicateData(int ntimes)
+    public void DuplicateData(int ntimes, RatingsData? ratingsData = null)
     {
         if (ratingsData != null)
         {
@@ -113,40 +119,52 @@ public class TransformCim2Json
                 ols.Key)).ToDictionary(x => XElementHelper.GetId(x), x => x) :
         new Dictionary<string, XElement>();
 
-
         var OperationalLimitTypeList = cimXElements.ContainsKey("OperationalLimitType") ?
             cimXElements["OperationalLimitType"].Values.Where(olt =>
                 XElementHelper.GetEnumValue(olt, "OperationalLimitType.Direction") == "AbsoluteValue").ToList() :
             new List<XElement>();
 
-        string previousLineId = string.Empty;
+        Dictionary<string, RatingsData> ratingsDataDict = new Dictionary<string, RatingsData>();
+        RatingsData ratingsData;
+
         foreach (var line in Lines)
         {
+            string previousLineId = line.Value != null ? XElementHelper.GetAliasName(line.Value).Split(' ')[0] : string.Empty;
+
+            if (ratingsDataDict.TryGetValue(previousLineId, out RatingsData? existingRatingsData))
+            {
+                ratingsData = existingRatingsData;
+            }
+            else
+            {
+                ratingsData = new RatingsData();
+                ratingsDataDict[previousLineId] = ratingsData;
+            }
+
             TransmissionFacilities tf = new TransmissionFacilities();
-            tf.id = XElementHelper.GetAliasName(line.Value);
+            tf.id = XElementHelper.GetAliasName(line.Value!);
             logger.Log(LogLevel.Info, $"Processing Line: {tf.id}, ID: {line.Key}");
             AddACLineSegments(ACLineSegmentList, OperationalLimitSetList, OperationalLimitList, line, tf);
             if (tf.segments.Count > 0)
                 ratingsData.transmissionFacilities.Add(tf);
             logger.Log(LogLevel.Info, $"Added Transmission Facility: {tf.id} with {tf.segments.Count} segments.");
 
-            if (tf.id != previousLineId && String.IsNullOrEmpty(previousLineId) == false)
-            {
-                AddRatingsData();
-                WriteToFile(jsonFile);
-                ratingsData.transmissionFacilities.Clear();
-                logger.Log(LogLevel.Info, $"Wrote ratings data for Transmission Facility: {tf.id} to file: {jsonFile}.");
-                ratingsData = new RatingsData();
-                previousLineId = string.Empty;
-                continue;
-            }
-            previousLineId = tf.id;
+
         }
 
+        foreach (var kvp in ratingsDataDict)
+        {
+            ratingsData = kvp.Value;
+            AddRatingsData(ratingsData);
+            string outputPath = $"{kvp.Key}_{jsonFile}";
+
+            WriteToFile(outputPath, ratingsData);
+            logger.Log(LogLevel.Info, $"Written JSON output to file: {outputPath}");
+        }
     }
-    private void WriteToFile(string outputPath)
+    private void WriteToFile(string outputPath, RatingsData ratingsData)
     {
-        DuplicateData(60);
+        DuplicateData(60, ratingsData);
         logger.Log(LogLevel.Info, $"Duplicated data to simulate larger dataset.");
         string json = System.Text.Json.JsonSerializer.Serialize(ratingsData, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
         File.WriteAllText(outputPath, json);
@@ -293,7 +311,7 @@ public class TransformCim2Json
         return true;
     }
 
-    private void AddRatingsData()
+    private void AddRatingsData(RatingsData ratingsData)
     {
         ratingsData.id = "APP-RTR" + DateTime.Now.ToString("yyyyMMdd") + "-001";
         ratingsData.comment = "Forecasted Ambient Adjusted Ratings for transmission line 12345 (segment A-B)";
