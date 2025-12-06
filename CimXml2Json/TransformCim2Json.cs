@@ -26,21 +26,72 @@ public class TransformCim2Json
         parser.LoadXml(cimXmlFilePath);
         cimXElements = parser.cimXElements;
         logger.Log(LogLevel.Info, $"Loaded CIM XML file: {cimXmlFilePath}");
+        ToJson();
+        logger.Log(LogLevel.Info, $"Converted CIM XML to JSON structure.");
+
     }
-    public void ToJson(string geographicalRegion = "")
+
+    public void DuplicateData(int ntimes)
+    {
+        if (ratingsData != null)
+        {
+            var originalFacilities = new List<TransmissionFacilities>(ratingsData.transmissionFacilities);
+            for (int i = 1; i < ntimes; i++)
+            {
+                foreach (var facility in originalFacilities)
+                {
+                    var newFacility = new TransmissionFacilities
+                    {
+                        id = facility.id,
+                        segments = new List<Segment>()
+                    };
+                    foreach (var segment in facility.segments)
+                    {
+                        newFacility.segments.Add(new Segment
+                        {
+                            id = segment.id,
+                            ratings = segment.ratings.Select(rating => new Rating
+                            {
+                                rating_type = rating.rating_type,
+                                period = new Period
+                                {
+                                    start = DateTime.Parse(rating.period.start).AddHours(i * originalFacilities.Count).ToString("o"),
+                                    duration = rating.period.duration
+                                },
+                                values = rating.values.Select(value => new Value
+                                {
+                                    name = value.name,
+                                    value = value.value,
+                                    unit = value.unit
+                                }).ToList(),
+                                metadata = new Metadata
+                                {
+                                    sourceSystem = rating.metadata.sourceSystem,
+                                    calculationMethod = rating.metadata.calculationMethod
+                                }
+                            }).ToList()
+                        });
+                    }
+                    ratingsData.transmissionFacilities.Add(newFacility);
+                }
+            }
+        }
+    }
+
+    private void ToJson()
     {
         Dictionary<string, XElement> Lines;
-        if (!string.IsNullOrEmpty(geographicalRegion))
+        /*if (!string.IsNullOrEmpty(geographicalRegion))
         {
             Lines = cimXElements.ContainsKey("Line") ?
                    cimXElements["Line"].Values.Where(x => XElementHelper.GetGeographicalRegion(x) == geographicalRegion)
                    .ToDictionary(x => XElementHelper.GetId(x), x => x) :
                    new Dictionary<string, XElement>();
         }
-        else
+        else*/
         {
             Lines = cimXElements.ContainsKey("Line") ?
-                 cimXElements["Line"].Values.ToDictionary(x => XElementHelper.GetId(x), x => x) :
+                 cimXElements["Line"].Values.ToDictionary(x => XElementHelper.GetId(x), x => x).OrderBy(x => XElementHelper.GetAliasName(x.Value)).ToDictionary(x => x.Key, x => x.Value) :
                  new Dictionary<string, XElement>();
         }
         var ACLineSegmentList = cimXElements.ContainsKey("ACLineSegment") ?
@@ -68,6 +119,7 @@ public class TransformCim2Json
                 XElementHelper.GetEnumValue(olt, "OperationalLimitType.Direction") == "AbsoluteValue").ToList() :
             new List<XElement>();
 
+        string previousLineId = string.Empty;
         foreach (var line in Lines)
         {
             TransmissionFacilities tf = new TransmissionFacilities();
@@ -77,11 +129,25 @@ public class TransformCim2Json
             if (tf.segments.Count > 0)
                 ratingsData.transmissionFacilities.Add(tf);
             logger.Log(LogLevel.Info, $"Added Transmission Facility: {tf.id} with {tf.segments.Count} segments.");
+
+            if (tf.id != previousLineId && String.IsNullOrEmpty(previousLineId) == false)
+            {
+                AddRatingsData();
+                WriteToFile(jsonFile);
+                ratingsData.transmissionFacilities.Clear();
+                logger.Log(LogLevel.Info, $"Wrote ratings data for Transmission Facility: {tf.id} to file: {jsonFile}.");
+                ratingsData = new RatingsData();
+                previousLineId = string.Empty;
+                continue;
+            }
+            previousLineId = tf.id;
         }
-        AddRatingsData();
+
     }
-    public void WriteToFile(string outputPath)
+    private void WriteToFile(string outputPath)
     {
+        DuplicateData(60);
+        logger.Log(LogLevel.Info, $"Duplicated data to simulate larger dataset.");
         string json = System.Text.Json.JsonSerializer.Serialize(ratingsData, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
         File.WriteAllText(outputPath, json);
 

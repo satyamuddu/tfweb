@@ -17,5 +17,8 @@ namespace TransmissionFacilityWebApp.Infrastructure.Persistence.Repository
         }
 
         public async Task<RatingsData> GetRatingProposalByCOQueryAsync(string co) => await _dbContext.GetRatingProposalByCOAsync(co);
+
+        public async Task<RatingsData> GetRatingProposalByDateQueryAsync(DateTime fromDate, DateTime toDate) => await _dbContext.GetRatingProposalByDateAsync(fromDate, toDate);
+
     }
 }

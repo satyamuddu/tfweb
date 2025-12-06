@@ -21,6 +21,13 @@ namespace TransmissionFacilityWebApp.Controllers
             var result = await _mediator.Send(query);
             return Ok(result);
         }
+        [HttpGet("{co}/{bydate}")]
+        public async Task<IActionResult> GetRatingsByDateQuery([FromQuery] string co, [FromQuery] DateTime fromDate, [FromQuery] DateTime toDate)
+        {
+            var query = new Application.Features.TransmissionFacilities.Queries.GetRatingsByDateQuery(fromDate, toDate);
+            var result = await _mediator.Send(query);
+            return Ok(result);
+        }
 
     }
 }
