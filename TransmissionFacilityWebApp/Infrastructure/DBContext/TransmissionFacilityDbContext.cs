@@ -46,7 +46,7 @@ public class TransmissionFacilityDbContext : DbContext
                                                 new Rating()
                                                 {
                                                         rating_type = "Type1",
-                                                        period = new Period(){ start = "2023-01-01T00:00:00Z", duration = "PT1H" },
+                                                        period = new Period(){ start = DateTime.Now, duration = "PT1H" },
                                                         values = new List<Value>()
                                                         {
                                                                 new Value(){ name = "MaxCapacity", value = "100", unit = "MW" },
