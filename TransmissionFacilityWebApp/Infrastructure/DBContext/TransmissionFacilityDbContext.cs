@@ -2,31 +2,19 @@ using System;
 using CimXml2Json;
 using Microsoft.EntityFrameworkCore;
 using TransmissionFacilityWebApp.Application.Dto;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TransmissionFacilityWebApp.DBContext;
 
 public class TransmissionFacilityDbContext : DbContext
 {
         DataDBContext dataDBContext = new DataDBContext();
-
         public TransmissionFacilityDbContext()
         {
         }
-
-
-
         public async Task<RatingsData> GetTransmissionFacilityByIdAsync(string id)
         {
-                if (dataDBContext.RatingsData == null)
-                {
-                        dataDBContext.ConvertXML2Json();
-                        if (dataDBContext.RatingsData == null)
-                        {
-                                throw new InvalidOperationException("Ratings data could not be loaded.");
-                        }
-                }
-                var facility = dataDBContext.RatingsData.transmissionFacilities.Where(f => f.id == id);
+                var data = dataDBContext.GetByCo(id);
+                var facility = data.Result.transmissionFacilities.Where(f => f.id == id);
                 if (facility == null)
                 {
                         throw new KeyNotFoundException($"Transmission facility with ID {id} not found.");
@@ -41,15 +29,7 @@ public class TransmissionFacilityDbContext : DbContext
 
         public async Task<RatingsData> GetAllRatingsDataAsync()
         {
-                if (dataDBContext.RatingsData == null)
-                {
-                        if (dataDBContext.RatingsData == null)
-                        {
-                                throw new InvalidOperationException("Ratings data could not be loaded.");
-                        }
-                }
-                // Simulate async data retrieval with Task.FromResult
-                return await Task.FromResult(dataDBContext.RatingsData);
+                return await dataDBContext.GetByCo("ECAR");
         }
         public async Task<IEnumerable<TransmissionFacilities>> GetTransmissionFacilitiesAsync()
         {

@@ -16,7 +16,7 @@ public class GetRatingsByDateQueryHandler : IRequestHandler<GetRatingsByDateQuer
     }
     public async Task<RatingsDataDto> Handle(GetRatingsByDateQuery request, CancellationToken cancellationToken)
     {
-        var ratingsData = await _ratingsProposalRepository.GetRatingProposalByDateQueryAsync(request.fromDate, request.toDate);
+        var ratingsData = await _ratingsProposalRepository.GetRatingProposalByDateQueryAsync(request.co, request.fromDate, request.toDate);
 
         return new RatingsData2Dto().ConvertToRatingsDataDto(ratingsData);
     }

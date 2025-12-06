@@ -4,20 +4,14 @@ namespace CimXml2Json;
 
 using AsyncLogger;
 
-public class TransformCim2Json
+internal class TransformCim2Json
 {
     private Dictionary<string, Dictionary<string, XElement>> cimXElements = new();
     string jsonFile = "ratings.json";
-    Dictionary<string, string> CoOutputFiles = new Dictionary<string, string>();
     Stack<string> logStrings = new Stack<string>();
-    public RatingsData GetRatingsData() => null;
 
     public TransformCim2Json()
     {
-        string nepool = "~/Documents/tfweb/CimXml2JsonTest/NEPOOL_ratings.json";
-        string ecar = "~/Documents/tfweb/CimXml2JsonTest/ECAR_ratings.json";
-        CoOutputFiles["NEPOOL"] = nepool;
-        CoOutputFiles["ECAR"] = ecar;
     }
     AsyncFileLogger logger = new AsyncFileLogger(
             logDirectory: "Logs",
@@ -164,7 +158,7 @@ public class TransformCim2Json
     }
     private void WriteToFile(string outputPath, RatingsData ratingsData)
     {
-        DuplicateData(60, ratingsData);
+        //DuplicateData(60, ratingsData);
         logger.Log(LogLevel.Info, $"Duplicated data to simulate larger dataset.");
         string json = System.Text.Json.JsonSerializer.Serialize(ratingsData, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
         File.WriteAllText(outputPath, json);

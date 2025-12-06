@@ -4,8 +4,14 @@ namespace CimXml2Json;
 
 public class JsonFileReader
 {
-  public RatingsData ReadJsonFile(string filePath)
+  private RatingsData ReadJsonFile(string coId)
   {
+
+    FilePaths.FilePathMappings.TryGetValue(coId, out string? filePath);
+    if (filePath == null)
+    {
+      throw new Exception($"File path for CO ID '{coId}' not found.");
+    }
     // Implementation for reading JSON file
     var jsonData = System.IO.File.ReadAllText(filePath);
 
@@ -24,7 +30,7 @@ public class JsonFileReader
   public RatingsData GetByCo(string coId)
   {
     // Implementation for getting RatingsData by CO ID
-    RatingsData ratingsData = ReadJsonFile(coId + "_ratings.json");
+    RatingsData ratingsData = ReadJsonFile(coId);
 
     return ratingsData;
 

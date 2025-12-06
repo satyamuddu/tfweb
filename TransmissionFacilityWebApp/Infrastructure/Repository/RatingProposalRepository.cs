@@ -18,6 +18,6 @@ public class RatingProposalRepository : IRatingProposalRepository
 
     public async Task<RatingsData> GetRatingProposalByCOQueryAsync(string co) => await _dbContext.GetRatingProposalByCOAsync(co);
 
-    public async Task<RatingsData> GetRatingProposalByDateQueryAsync(DateTime fromDate, DateTime toDate) => await _dbContext.GetRatingProposalByDateAsync(fromDate, toDate);
+    public async Task<RatingsData> GetRatingProposalByDateQueryAsync(string co, DateTime fromDate, DateTime toDate) => await _dbContext.GetRatingProposalByDateAsync(co, fromDate, toDate);
 
 }

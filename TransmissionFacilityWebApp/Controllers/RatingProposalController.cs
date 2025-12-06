@@ -31,7 +31,7 @@ namespace TransmissionFacilityWebApp.Controllers
             if (toDate < fromDate)
                 return BadRequest("toDate must be greater than fromDate");
 
-            var query = new Application.Queries.GetRatingsByDateQuery(fromDate, toDate);
+            var query = new Application.Queries.GetRatingsByDateQuery(co, fromDate, toDate);
             var result = await _mediator.Send(query);
             return Ok(result);
         }
