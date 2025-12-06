@@ -4,11 +4,12 @@ namespace CimXml2Json;
 
 using AsyncLogger;
 
-internal class TransformCim2Json
+public class TransformCim2Json
 {
     private Dictionary<string, Dictionary<string, XElement>> cimXElements = new();
     string jsonFile = "ratings.json";
     Stack<string> logStrings = new Stack<string>();
+    Dictionary<string, HashSet<string>> addedXMLElements = new Dictionary<string, HashSet<string>>();
 
     public TransformCim2Json()
     {
@@ -28,9 +29,28 @@ internal class TransformCim2Json
         logger.Log(LogLevel.Info, $"Loaded CIM XML file: {cimXmlFilePath}");
         ToJson();
         logger.Log(LogLevel.Info, $"Converted CIM XML to JSON structure.");
-
+        LogSkippedObjects();
     }
 
+    private void LogSkippedObjects()
+    {
+        foreach (var kvp in addedXMLElements)
+        {
+            string elementType = kvp.Key;
+            HashSet<string> addedIds = kvp.Value;
+
+            if (cimXElements.ContainsKey(elementType))
+            {
+                var allIds = cimXElements[elementType].Keys;
+                var skippedIds = allIds.Except(addedIds);
+
+                foreach (var skippedId in skippedIds)
+                {
+                    logger.Log(LogLevel.Warning, $"Skipped {elementType} with ID: {skippedId}");
+                }
+            }
+        }
+    }
     public void DuplicateData(int ntimes, RatingsData? ratingsData = null)
     {
         if (ratingsData != null)
@@ -55,7 +75,7 @@ internal class TransformCim2Json
                                 rating_type = rating.rating_type,
                                 period = new Period
                                 {
-                                    start = DateTime.Parse(rating.period.start).AddHours(i * originalFacilities.Count).ToString("o"),
+                                    start = rating.period.start.AddHours(i * originalFacilities.Count), //DateTime.Parse(rating.period.start).AddHours(i * originalFacilities.Count).ToString("o"),
                                     duration = rating.period.duration
                                 },
                                 values = rating.values.Select(value => new Value
@@ -124,7 +144,6 @@ internal class TransformCim2Json
         foreach (var line in Lines)
         {
             string previousLineId = line.Value != null ? XElementHelper.GetAliasName(line.Value).Split(' ')[0] : string.Empty;
-
             if (ratingsDataDict.TryGetValue(previousLineId, out RatingsData? existingRatingsData))
             {
                 ratingsData = existingRatingsData;
@@ -134,16 +153,22 @@ internal class TransformCim2Json
                 ratingsData = new RatingsData();
                 ratingsDataDict[previousLineId] = ratingsData;
             }
-
             TransmissionFacilities tf = new TransmissionFacilities();
             tf.id = XElementHelper.GetAliasName(line.Value!);
             logger.Log(LogLevel.Info, $"Processing Line: {tf.id}, ID: {line.Key}");
             AddACLineSegments(ACLineSegmentList, OperationalLimitSetList, OperationalLimitList, line, tf);
             if (tf.segments.Count > 0)
+            {
                 ratingsData.transmissionFacilities.Add(tf);
+                addedXMLElements.TryGetValue("Line", out HashSet<string>? lineIds);
+                if (lineIds == null)
+                {
+                    lineIds = new HashSet<string>();
+                    addedXMLElements["Line"] = lineIds;
+                }
+                lineIds.Add(line.Key);
+            }
             logger.Log(LogLevel.Info, $"Added Transmission Facility: {tf.id} with {tf.segments.Count} segments.");
-
-
         }
 
         foreach (var kvp in ratingsDataDict)
@@ -158,11 +183,10 @@ internal class TransformCim2Json
     }
     private void WriteToFile(string outputPath, RatingsData ratingsData)
     {
-        //DuplicateData(60, ratingsData);
+        DuplicateData(60, ratingsData);
         logger.Log(LogLevel.Info, $"Duplicated data to simulate larger dataset.");
         string json = System.Text.Json.JsonSerializer.Serialize(ratingsData, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
         File.WriteAllText(outputPath, json);
-
     }
 
     private void AddACLineSegments(Dictionary<string, XElement> ACLineSegmentList, Dictionary<string, XElement> OperationalLimitSetList, Dictionary<string, XElement> OperationalLimitList, KeyValuePair<string, XElement> line, TransmissionFacilities tf)
@@ -183,7 +207,16 @@ internal class TransformCim2Json
                 AddOperationalLimits(OperationalLimitList, segment, ols);
             }
             if (segment.ratings.Count > 0)
+            {
                 tf.segments.Add(segment);
+                addedXMLElements.TryGetValue("ACLineSegment", out HashSet<string>? acLineSegmentIds);
+                if (acLineSegmentIds == null)
+                {
+                    acLineSegmentIds = new HashSet<string>();
+                    addedXMLElements["ACLineSegment"] = acLineSegmentIds;
+                }
+                acLineSegmentIds.Add(XElementHelper.GetId(acs));
+            }
             else
             {
                 logStrings.Push($"No valid ratings found for Segment AliasName = {segment.id}.");
@@ -195,7 +228,7 @@ internal class TransformCim2Json
     {
         Period period = new Period
         {
-            start = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ssZ"),
+            start = DateTime.Now,//DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ssZ"),
             duration = "PT1H"
         };
         Rating rating = new Rating

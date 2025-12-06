@@ -1,6 +1,8 @@
 using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CimXml2Json;
+
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
@@ -48,6 +50,6 @@ public class Value
 
 public class Period
 {
-    public string start { get; set; } = string.Empty;
+    public DateTime start { get; set; } = DateTime.MinValue;
     public string duration { get; set; } = string.Empty;
 }

@@ -1,5 +1,5 @@
 {
-  "ratings-proposal-id": "APP-RTR20251205-001",
+  "ratings-proposal-id": "APP-RTR20251206-001",
   "comment": "Forecasted Ambient Adjusted Ratings for transmission line 12345 (segment A-B)",
   "transmission-facilities": [
     {
@@ -11,7 +11,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22Z",
+                "start": "2025-12-06T15:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -39,7 +39,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22Z",
+                "start": "2025-12-06T15:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -77,7 +77,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22Z",
+                "start": "2025-12-06T15:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -105,7 +105,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22Z",
+                "start": "2025-12-06T15:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -143,7 +143,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22Z",
+                "start": "2025-12-06T15:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -171,7 +171,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22Z",
+                "start": "2025-12-06T15:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -209,7 +209,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22Z",
+                "start": "2025-12-06T15:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -237,7 +237,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22Z",
+                "start": "2025-12-06T15:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -275,7 +275,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T17:02:22.0000000-08:00",
+                "start": "2025-12-06T19:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -303,7 +303,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T17:02:22.0000000-08:00",
+                "start": "2025-12-06T19:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -341,7 +341,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T17:02:22.0000000-08:00",
+                "start": "2025-12-06T19:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -369,7 +369,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T17:02:22.0000000-08:00",
+                "start": "2025-12-06T19:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -407,7 +407,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T17:02:22.0000000-08:00",
+                "start": "2025-12-06T19:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -435,7 +435,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T17:02:22.0000000-08:00",
+                "start": "2025-12-06T19:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -473,7 +473,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T17:02:22.0000000-08:00",
+                "start": "2025-12-06T19:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -501,7 +501,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T17:02:22.0000000-08:00",
+                "start": "2025-12-06T19:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -539,7 +539,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22.0000000-08:00",
+                "start": "2025-12-06T23:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -567,7 +567,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22.0000000-08:00",
+                "start": "2025-12-06T23:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -605,7 +605,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22.0000000-08:00",
+                "start": "2025-12-06T23:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -633,7 +633,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22.0000000-08:00",
+                "start": "2025-12-06T23:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -671,7 +671,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22.0000000-08:00",
+                "start": "2025-12-06T23:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -699,7 +699,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22.0000000-08:00",
+                "start": "2025-12-06T23:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -737,7 +737,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22.0000000-08:00",
+                "start": "2025-12-06T23:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -765,7 +765,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-05T21:02:22.0000000-08:00",
+                "start": "2025-12-06T23:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -803,7 +803,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T01:02:22.0000000-08:00",
+                "start": "2025-12-07T03:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -831,7 +831,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T01:02:22.0000000-08:00",
+                "start": "2025-12-07T03:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -869,7 +869,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T01:02:22.0000000-08:00",
+                "start": "2025-12-07T03:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -897,7 +897,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T01:02:22.0000000-08:00",
+                "start": "2025-12-07T03:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -935,7 +935,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T01:02:22.0000000-08:00",
+                "start": "2025-12-07T03:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -963,7 +963,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T01:02:22.0000000-08:00",
+                "start": "2025-12-07T03:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1001,7 +1001,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T01:02:22.0000000-08:00",
+                "start": "2025-12-07T03:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1029,7 +1029,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T01:02:22.0000000-08:00",
+                "start": "2025-12-07T03:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1067,7 +1067,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T05:02:22.0000000-08:00",
+                "start": "2025-12-07T07:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1095,7 +1095,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T05:02:22.0000000-08:00",
+                "start": "2025-12-07T07:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1133,7 +1133,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T05:02:22.0000000-08:00",
+                "start": "2025-12-07T07:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1161,7 +1161,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T05:02:22.0000000-08:00",
+                "start": "2025-12-07T07:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1199,7 +1199,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T05:02:22.0000000-08:00",
+                "start": "2025-12-07T07:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1227,7 +1227,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T05:02:22.0000000-08:00",
+                "start": "2025-12-07T07:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1265,7 +1265,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T05:02:22.0000000-08:00",
+                "start": "2025-12-07T07:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1293,7 +1293,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T05:02:22.0000000-08:00",
+                "start": "2025-12-07T07:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1331,7 +1331,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T09:02:22.0000000-08:00",
+                "start": "2025-12-07T11:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1359,7 +1359,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T09:02:22.0000000-08:00",
+                "start": "2025-12-07T11:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1397,7 +1397,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T09:02:22.0000000-08:00",
+                "start": "2025-12-07T11:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1425,7 +1425,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T09:02:22.0000000-08:00",
+                "start": "2025-12-07T11:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1463,7 +1463,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T09:02:22.0000000-08:00",
+                "start": "2025-12-07T11:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1491,7 +1491,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T09:02:22.0000000-08:00",
+                "start": "2025-12-07T11:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1529,7 +1529,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T09:02:22.0000000-08:00",
+                "start": "2025-12-07T11:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1557,7 +1557,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T09:02:22.0000000-08:00",
+                "start": "2025-12-07T11:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1595,7 +1595,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T13:02:22.0000000-08:00",
+                "start": "2025-12-07T15:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1623,7 +1623,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T13:02:22.0000000-08:00",
+                "start": "2025-12-07T15:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1661,7 +1661,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T13:02:22.0000000-08:00",
+                "start": "2025-12-07T15:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1689,7 +1689,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T13:02:22.0000000-08:00",
+                "start": "2025-12-07T15:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1727,7 +1727,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T13:02:22.0000000-08:00",
+                "start": "2025-12-07T15:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1755,7 +1755,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T13:02:22.0000000-08:00",
+                "start": "2025-12-07T15:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1793,7 +1793,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T13:02:22.0000000-08:00",
+                "start": "2025-12-07T15:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1821,7 +1821,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T13:02:22.0000000-08:00",
+                "start": "2025-12-07T15:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1859,7 +1859,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T17:02:22.0000000-08:00",
+                "start": "2025-12-07T19:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1887,7 +1887,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T17:02:22.0000000-08:00",
+                "start": "2025-12-07T19:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1925,7 +1925,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T17:02:22.0000000-08:00",
+                "start": "2025-12-07T19:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1953,7 +1953,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T17:02:22.0000000-08:00",
+                "start": "2025-12-07T19:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -1991,7 +1991,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T17:02:22.0000000-08:00",
+                "start": "2025-12-07T19:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2019,7 +2019,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T17:02:22.0000000-08:00",
+                "start": "2025-12-07T19:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2057,7 +2057,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T17:02:22.0000000-08:00",
+                "start": "2025-12-07T19:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2085,7 +2085,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T17:02:22.0000000-08:00",
+                "start": "2025-12-07T19:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2123,7 +2123,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T21:02:22.0000000-08:00",
+                "start": "2025-12-07T23:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2151,7 +2151,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T21:02:22.0000000-08:00",
+                "start": "2025-12-07T23:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2189,7 +2189,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T21:02:22.0000000-08:00",
+                "start": "2025-12-07T23:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2217,7 +2217,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T21:02:22.0000000-08:00",
+                "start": "2025-12-07T23:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2255,7 +2255,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T21:02:22.0000000-08:00",
+                "start": "2025-12-07T23:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2283,7 +2283,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T21:02:22.0000000-08:00",
+                "start": "2025-12-07T23:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2321,7 +2321,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T21:02:22.0000000-08:00",
+                "start": "2025-12-07T23:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2349,7 +2349,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-06T21:02:22.0000000-08:00",
+                "start": "2025-12-07T23:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2387,7 +2387,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T01:02:22.0000000-08:00",
+                "start": "2025-12-08T03:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2415,7 +2415,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T01:02:22.0000000-08:00",
+                "start": "2025-12-08T03:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2453,7 +2453,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T01:02:22.0000000-08:00",
+                "start": "2025-12-08T03:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2481,7 +2481,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T01:02:22.0000000-08:00",
+                "start": "2025-12-08T03:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2519,7 +2519,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T01:02:22.0000000-08:00",
+                "start": "2025-12-08T03:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2547,7 +2547,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T01:02:22.0000000-08:00",
+                "start": "2025-12-08T03:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2585,7 +2585,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T01:02:22.0000000-08:00",
+                "start": "2025-12-08T03:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2613,7 +2613,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T01:02:22.0000000-08:00",
+                "start": "2025-12-08T03:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2651,7 +2651,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T05:02:22.0000000-08:00",
+                "start": "2025-12-08T07:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2679,7 +2679,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T05:02:22.0000000-08:00",
+                "start": "2025-12-08T07:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2717,7 +2717,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T05:02:22.0000000-08:00",
+                "start": "2025-12-08T07:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2745,7 +2745,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T05:02:22.0000000-08:00",
+                "start": "2025-12-08T07:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2783,7 +2783,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T05:02:22.0000000-08:00",
+                "start": "2025-12-08T07:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2811,7 +2811,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T05:02:22.0000000-08:00",
+                "start": "2025-12-08T07:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2849,7 +2849,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T05:02:22.0000000-08:00",
+                "start": "2025-12-08T07:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2877,7 +2877,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T05:02:22.0000000-08:00",
+                "start": "2025-12-08T07:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2915,7 +2915,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T09:02:22.0000000-08:00",
+                "start": "2025-12-08T11:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2943,7 +2943,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T09:02:22.0000000-08:00",
+                "start": "2025-12-08T11:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -2981,7 +2981,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T09:02:22.0000000-08:00",
+                "start": "2025-12-08T11:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3009,7 +3009,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T09:02:22.0000000-08:00",
+                "start": "2025-12-08T11:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3047,7 +3047,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T09:02:22.0000000-08:00",
+                "start": "2025-12-08T11:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3075,7 +3075,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T09:02:22.0000000-08:00",
+                "start": "2025-12-08T11:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3113,7 +3113,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T09:02:22.0000000-08:00",
+                "start": "2025-12-08T11:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3141,7 +3141,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T09:02:22.0000000-08:00",
+                "start": "2025-12-08T11:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3179,7 +3179,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T13:02:22.0000000-08:00",
+                "start": "2025-12-08T15:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3207,7 +3207,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T13:02:22.0000000-08:00",
+                "start": "2025-12-08T15:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3245,7 +3245,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T13:02:22.0000000-08:00",
+                "start": "2025-12-08T15:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3273,7 +3273,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T13:02:22.0000000-08:00",
+                "start": "2025-12-08T15:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3311,7 +3311,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T13:02:22.0000000-08:00",
+                "start": "2025-12-08T15:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3339,7 +3339,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T13:02:22.0000000-08:00",
+                "start": "2025-12-08T15:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3377,7 +3377,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T13:02:22.0000000-08:00",
+                "start": "2025-12-08T15:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3405,7 +3405,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T13:02:22.0000000-08:00",
+                "start": "2025-12-08T15:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3443,7 +3443,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T17:02:22.0000000-08:00",
+                "start": "2025-12-08T19:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3471,7 +3471,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T17:02:22.0000000-08:00",
+                "start": "2025-12-08T19:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3509,7 +3509,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T17:02:22.0000000-08:00",
+                "start": "2025-12-08T19:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3537,7 +3537,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T17:02:22.0000000-08:00",
+                "start": "2025-12-08T19:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3575,7 +3575,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T17:02:22.0000000-08:00",
+                "start": "2025-12-08T19:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3603,7 +3603,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T17:02:22.0000000-08:00",
+                "start": "2025-12-08T19:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3641,7 +3641,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T17:02:22.0000000-08:00",
+                "start": "2025-12-08T19:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3669,7 +3669,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T17:02:22.0000000-08:00",
+                "start": "2025-12-08T19:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3707,7 +3707,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T21:02:22.0000000-08:00",
+                "start": "2025-12-08T23:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3735,7 +3735,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T21:02:22.0000000-08:00",
+                "start": "2025-12-08T23:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3773,7 +3773,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T21:02:22.0000000-08:00",
+                "start": "2025-12-08T23:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3801,7 +3801,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T21:02:22.0000000-08:00",
+                "start": "2025-12-08T23:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3839,7 +3839,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T21:02:22.0000000-08:00",
+                "start": "2025-12-08T23:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3867,7 +3867,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T21:02:22.0000000-08:00",
+                "start": "2025-12-08T23:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3905,7 +3905,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T21:02:22.0000000-08:00",
+                "start": "2025-12-08T23:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3933,7 +3933,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-07T21:02:22.0000000-08:00",
+                "start": "2025-12-08T23:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3971,7 +3971,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T01:02:22.0000000-08:00",
+                "start": "2025-12-09T03:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -3999,7 +3999,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T01:02:22.0000000-08:00",
+                "start": "2025-12-09T03:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4037,7 +4037,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T01:02:22.0000000-08:00",
+                "start": "2025-12-09T03:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4065,7 +4065,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T01:02:22.0000000-08:00",
+                "start": "2025-12-09T03:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4103,7 +4103,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T01:02:22.0000000-08:00",
+                "start": "2025-12-09T03:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4131,7 +4131,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T01:02:22.0000000-08:00",
+                "start": "2025-12-09T03:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4169,7 +4169,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T01:02:22.0000000-08:00",
+                "start": "2025-12-09T03:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4197,7 +4197,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T01:02:22.0000000-08:00",
+                "start": "2025-12-09T03:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4235,7 +4235,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T05:02:22.0000000-08:00",
+                "start": "2025-12-09T07:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4263,7 +4263,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T05:02:22.0000000-08:00",
+                "start": "2025-12-09T07:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4301,7 +4301,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T05:02:22.0000000-08:00",
+                "start": "2025-12-09T07:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4329,7 +4329,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T05:02:22.0000000-08:00",
+                "start": "2025-12-09T07:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4367,7 +4367,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T05:02:22.0000000-08:00",
+                "start": "2025-12-09T07:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4395,7 +4395,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T05:02:22.0000000-08:00",
+                "start": "2025-12-09T07:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4433,7 +4433,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T05:02:22.0000000-08:00",
+                "start": "2025-12-09T07:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4461,7 +4461,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T05:02:22.0000000-08:00",
+                "start": "2025-12-09T07:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4499,7 +4499,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T09:02:22.0000000-08:00",
+                "start": "2025-12-09T11:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4527,7 +4527,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T09:02:22.0000000-08:00",
+                "start": "2025-12-09T11:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4565,7 +4565,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T09:02:22.0000000-08:00",
+                "start": "2025-12-09T11:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4593,7 +4593,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T09:02:22.0000000-08:00",
+                "start": "2025-12-09T11:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4631,7 +4631,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T09:02:22.0000000-08:00",
+                "start": "2025-12-09T11:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4659,7 +4659,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T09:02:22.0000000-08:00",
+                "start": "2025-12-09T11:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4697,7 +4697,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T09:02:22.0000000-08:00",
+                "start": "2025-12-09T11:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4725,7 +4725,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T09:02:22.0000000-08:00",
+                "start": "2025-12-09T11:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4763,7 +4763,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T13:02:22.0000000-08:00",
+                "start": "2025-12-09T15:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4791,7 +4791,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T13:02:22.0000000-08:00",
+                "start": "2025-12-09T15:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4829,7 +4829,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T13:02:22.0000000-08:00",
+                "start": "2025-12-09T15:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4857,7 +4857,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T13:02:22.0000000-08:00",
+                "start": "2025-12-09T15:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4895,7 +4895,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T13:02:22.0000000-08:00",
+                "start": "2025-12-09T15:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4923,7 +4923,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T13:02:22.0000000-08:00",
+                "start": "2025-12-09T15:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4961,7 +4961,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T13:02:22.0000000-08:00",
+                "start": "2025-12-09T15:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -4989,7 +4989,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T13:02:22.0000000-08:00",
+                "start": "2025-12-09T15:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5027,7 +5027,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T17:02:22.0000000-08:00",
+                "start": "2025-12-09T19:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5055,7 +5055,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T17:02:22.0000000-08:00",
+                "start": "2025-12-09T19:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5093,7 +5093,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T17:02:22.0000000-08:00",
+                "start": "2025-12-09T19:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5121,7 +5121,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T17:02:22.0000000-08:00",
+                "start": "2025-12-09T19:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5159,7 +5159,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T17:02:22.0000000-08:00",
+                "start": "2025-12-09T19:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5187,7 +5187,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T17:02:22.0000000-08:00",
+                "start": "2025-12-09T19:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5225,7 +5225,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T17:02:22.0000000-08:00",
+                "start": "2025-12-09T19:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5253,7 +5253,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T17:02:22.0000000-08:00",
+                "start": "2025-12-09T19:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5291,7 +5291,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T21:02:22.0000000-08:00",
+                "start": "2025-12-09T23:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5319,7 +5319,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T21:02:22.0000000-08:00",
+                "start": "2025-12-09T23:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5357,7 +5357,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T21:02:22.0000000-08:00",
+                "start": "2025-12-09T23:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5385,7 +5385,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T21:02:22.0000000-08:00",
+                "start": "2025-12-09T23:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5423,7 +5423,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T21:02:22.0000000-08:00",
+                "start": "2025-12-09T23:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5451,7 +5451,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T21:02:22.0000000-08:00",
+                "start": "2025-12-09T23:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5489,7 +5489,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T21:02:22.0000000-08:00",
+                "start": "2025-12-09T23:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5517,7 +5517,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-08T21:02:22.0000000-08:00",
+                "start": "2025-12-09T23:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5555,7 +5555,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T01:02:22.0000000-08:00",
+                "start": "2025-12-10T03:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5583,7 +5583,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T01:02:22.0000000-08:00",
+                "start": "2025-12-10T03:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5621,7 +5621,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T01:02:22.0000000-08:00",
+                "start": "2025-12-10T03:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5649,7 +5649,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T01:02:22.0000000-08:00",
+                "start": "2025-12-10T03:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5687,7 +5687,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T01:02:22.0000000-08:00",
+                "start": "2025-12-10T03:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5715,7 +5715,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T01:02:22.0000000-08:00",
+                "start": "2025-12-10T03:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5753,7 +5753,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T01:02:22.0000000-08:00",
+                "start": "2025-12-10T03:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5781,7 +5781,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T01:02:22.0000000-08:00",
+                "start": "2025-12-10T03:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5819,7 +5819,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T05:02:22.0000000-08:00",
+                "start": "2025-12-10T07:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5847,7 +5847,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T05:02:22.0000000-08:00",
+                "start": "2025-12-10T07:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5885,7 +5885,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T05:02:22.0000000-08:00",
+                "start": "2025-12-10T07:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5913,7 +5913,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T05:02:22.0000000-08:00",
+                "start": "2025-12-10T07:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5951,7 +5951,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T05:02:22.0000000-08:00",
+                "start": "2025-12-10T07:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -5979,7 +5979,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T05:02:22.0000000-08:00",
+                "start": "2025-12-10T07:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6017,7 +6017,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T05:02:22.0000000-08:00",
+                "start": "2025-12-10T07:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6045,7 +6045,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T05:02:22.0000000-08:00",
+                "start": "2025-12-10T07:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6083,7 +6083,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T09:02:22.0000000-08:00",
+                "start": "2025-12-10T11:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6111,7 +6111,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T09:02:22.0000000-08:00",
+                "start": "2025-12-10T11:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6149,7 +6149,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T09:02:22.0000000-08:00",
+                "start": "2025-12-10T11:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6177,7 +6177,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T09:02:22.0000000-08:00",
+                "start": "2025-12-10T11:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6215,7 +6215,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T09:02:22.0000000-08:00",
+                "start": "2025-12-10T11:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6243,7 +6243,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T09:02:22.0000000-08:00",
+                "start": "2025-12-10T11:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6281,7 +6281,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T09:02:22.0000000-08:00",
+                "start": "2025-12-10T11:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6309,7 +6309,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T09:02:22.0000000-08:00",
+                "start": "2025-12-10T11:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6347,7 +6347,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T13:02:22.0000000-08:00",
+                "start": "2025-12-10T15:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6375,7 +6375,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T13:02:22.0000000-08:00",
+                "start": "2025-12-10T15:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6413,7 +6413,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T13:02:22.0000000-08:00",
+                "start": "2025-12-10T15:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6441,7 +6441,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T13:02:22.0000000-08:00",
+                "start": "2025-12-10T15:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6479,7 +6479,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T13:02:22.0000000-08:00",
+                "start": "2025-12-10T15:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6507,7 +6507,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T13:02:22.0000000-08:00",
+                "start": "2025-12-10T15:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6545,7 +6545,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T13:02:22.0000000-08:00",
+                "start": "2025-12-10T15:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6573,7 +6573,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T13:02:22.0000000-08:00",
+                "start": "2025-12-10T15:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6611,7 +6611,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T17:02:22.0000000-08:00",
+                "start": "2025-12-10T19:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6639,7 +6639,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T17:02:22.0000000-08:00",
+                "start": "2025-12-10T19:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6677,7 +6677,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T17:02:22.0000000-08:00",
+                "start": "2025-12-10T19:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6705,7 +6705,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T17:02:22.0000000-08:00",
+                "start": "2025-12-10T19:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6743,7 +6743,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T17:02:22.0000000-08:00",
+                "start": "2025-12-10T19:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6771,7 +6771,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T17:02:22.0000000-08:00",
+                "start": "2025-12-10T19:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6809,7 +6809,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T17:02:22.0000000-08:00",
+                "start": "2025-12-10T19:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6837,7 +6837,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T17:02:22.0000000-08:00",
+                "start": "2025-12-10T19:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6875,7 +6875,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T21:02:22.0000000-08:00",
+                "start": "2025-12-10T23:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6903,7 +6903,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T21:02:22.0000000-08:00",
+                "start": "2025-12-10T23:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6941,7 +6941,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T21:02:22.0000000-08:00",
+                "start": "2025-12-10T23:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -6969,7 +6969,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T21:02:22.0000000-08:00",
+                "start": "2025-12-10T23:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7007,7 +7007,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T21:02:22.0000000-08:00",
+                "start": "2025-12-10T23:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7035,7 +7035,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T21:02:22.0000000-08:00",
+                "start": "2025-12-10T23:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7073,7 +7073,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T21:02:22.0000000-08:00",
+                "start": "2025-12-10T23:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7101,7 +7101,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-09T21:02:22.0000000-08:00",
+                "start": "2025-12-10T23:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7139,7 +7139,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T01:02:22.0000000-08:00",
+                "start": "2025-12-11T03:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7167,7 +7167,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T01:02:22.0000000-08:00",
+                "start": "2025-12-11T03:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7205,7 +7205,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T01:02:22.0000000-08:00",
+                "start": "2025-12-11T03:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7233,7 +7233,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T01:02:22.0000000-08:00",
+                "start": "2025-12-11T03:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7271,7 +7271,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T01:02:22.0000000-08:00",
+                "start": "2025-12-11T03:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7299,7 +7299,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T01:02:22.0000000-08:00",
+                "start": "2025-12-11T03:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7337,7 +7337,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T01:02:22.0000000-08:00",
+                "start": "2025-12-11T03:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7365,7 +7365,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T01:02:22.0000000-08:00",
+                "start": "2025-12-11T03:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7403,7 +7403,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T05:02:22.0000000-08:00",
+                "start": "2025-12-11T07:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7431,7 +7431,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T05:02:22.0000000-08:00",
+                "start": "2025-12-11T07:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7469,7 +7469,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T05:02:22.0000000-08:00",
+                "start": "2025-12-11T07:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7497,7 +7497,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T05:02:22.0000000-08:00",
+                "start": "2025-12-11T07:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7535,7 +7535,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T05:02:22.0000000-08:00",
+                "start": "2025-12-11T07:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7563,7 +7563,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T05:02:22.0000000-08:00",
+                "start": "2025-12-11T07:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7601,7 +7601,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T05:02:22.0000000-08:00",
+                "start": "2025-12-11T07:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7629,7 +7629,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T05:02:22.0000000-08:00",
+                "start": "2025-12-11T07:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7667,7 +7667,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T09:02:22.0000000-08:00",
+                "start": "2025-12-11T11:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7695,7 +7695,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T09:02:22.0000000-08:00",
+                "start": "2025-12-11T11:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7733,7 +7733,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T09:02:22.0000000-08:00",
+                "start": "2025-12-11T11:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7761,7 +7761,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T09:02:22.0000000-08:00",
+                "start": "2025-12-11T11:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7799,7 +7799,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T09:02:22.0000000-08:00",
+                "start": "2025-12-11T11:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7827,7 +7827,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T09:02:22.0000000-08:00",
+                "start": "2025-12-11T11:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7865,7 +7865,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T09:02:22.0000000-08:00",
+                "start": "2025-12-11T11:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7893,7 +7893,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T09:02:22.0000000-08:00",
+                "start": "2025-12-11T11:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7931,7 +7931,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T13:02:22.0000000-08:00",
+                "start": "2025-12-11T15:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7959,7 +7959,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T13:02:22.0000000-08:00",
+                "start": "2025-12-11T15:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -7997,7 +7997,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T13:02:22.0000000-08:00",
+                "start": "2025-12-11T15:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8025,7 +8025,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T13:02:22.0000000-08:00",
+                "start": "2025-12-11T15:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8063,7 +8063,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T13:02:22.0000000-08:00",
+                "start": "2025-12-11T15:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8091,7 +8091,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T13:02:22.0000000-08:00",
+                "start": "2025-12-11T15:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8129,7 +8129,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T13:02:22.0000000-08:00",
+                "start": "2025-12-11T15:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8157,7 +8157,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T13:02:22.0000000-08:00",
+                "start": "2025-12-11T15:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8195,7 +8195,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T17:02:22.0000000-08:00",
+                "start": "2025-12-11T19:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8223,7 +8223,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T17:02:22.0000000-08:00",
+                "start": "2025-12-11T19:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8261,7 +8261,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T17:02:22.0000000-08:00",
+                "start": "2025-12-11T19:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8289,7 +8289,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T17:02:22.0000000-08:00",
+                "start": "2025-12-11T19:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8327,7 +8327,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T17:02:22.0000000-08:00",
+                "start": "2025-12-11T19:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8355,7 +8355,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T17:02:22.0000000-08:00",
+                "start": "2025-12-11T19:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8393,7 +8393,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T17:02:22.0000000-08:00",
+                "start": "2025-12-11T19:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8421,7 +8421,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T17:02:22.0000000-08:00",
+                "start": "2025-12-11T19:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8459,7 +8459,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T21:02:22.0000000-08:00",
+                "start": "2025-12-11T23:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8487,7 +8487,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T21:02:22.0000000-08:00",
+                "start": "2025-12-11T23:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8525,7 +8525,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T21:02:22.0000000-08:00",
+                "start": "2025-12-11T23:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8553,7 +8553,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T21:02:22.0000000-08:00",
+                "start": "2025-12-11T23:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8591,7 +8591,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T21:02:22.0000000-08:00",
+                "start": "2025-12-11T23:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8619,7 +8619,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T21:02:22.0000000-08:00",
+                "start": "2025-12-11T23:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8657,7 +8657,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T21:02:22.0000000-08:00",
+                "start": "2025-12-11T23:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8685,7 +8685,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-10T21:02:22.0000000-08:00",
+                "start": "2025-12-11T23:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8723,7 +8723,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T01:02:22.0000000-08:00",
+                "start": "2025-12-12T03:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8751,7 +8751,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T01:02:22.0000000-08:00",
+                "start": "2025-12-12T03:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8789,7 +8789,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T01:02:22.0000000-08:00",
+                "start": "2025-12-12T03:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8817,7 +8817,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T01:02:22.0000000-08:00",
+                "start": "2025-12-12T03:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8855,7 +8855,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T01:02:22.0000000-08:00",
+                "start": "2025-12-12T03:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8883,7 +8883,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T01:02:22.0000000-08:00",
+                "start": "2025-12-12T03:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8921,7 +8921,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T01:02:22.0000000-08:00",
+                "start": "2025-12-12T03:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8949,7 +8949,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T01:02:22.0000000-08:00",
+                "start": "2025-12-12T03:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -8987,7 +8987,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T05:02:22.0000000-08:00",
+                "start": "2025-12-12T07:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9015,7 +9015,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T05:02:22.0000000-08:00",
+                "start": "2025-12-12T07:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9053,7 +9053,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T05:02:22.0000000-08:00",
+                "start": "2025-12-12T07:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9081,7 +9081,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T05:02:22.0000000-08:00",
+                "start": "2025-12-12T07:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9119,7 +9119,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T05:02:22.0000000-08:00",
+                "start": "2025-12-12T07:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9147,7 +9147,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T05:02:22.0000000-08:00",
+                "start": "2025-12-12T07:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9185,7 +9185,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T05:02:22.0000000-08:00",
+                "start": "2025-12-12T07:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9213,7 +9213,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T05:02:22.0000000-08:00",
+                "start": "2025-12-12T07:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9251,7 +9251,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T09:02:22.0000000-08:00",
+                "start": "2025-12-12T11:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9279,7 +9279,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T09:02:22.0000000-08:00",
+                "start": "2025-12-12T11:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9317,7 +9317,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T09:02:22.0000000-08:00",
+                "start": "2025-12-12T11:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9345,7 +9345,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T09:02:22.0000000-08:00",
+                "start": "2025-12-12T11:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9383,7 +9383,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T09:02:22.0000000-08:00",
+                "start": "2025-12-12T11:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9411,7 +9411,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T09:02:22.0000000-08:00",
+                "start": "2025-12-12T11:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9449,7 +9449,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T09:02:22.0000000-08:00",
+                "start": "2025-12-12T11:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9477,7 +9477,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T09:02:22.0000000-08:00",
+                "start": "2025-12-12T11:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9515,7 +9515,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T13:02:22.0000000-08:00",
+                "start": "2025-12-12T15:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9543,7 +9543,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T13:02:22.0000000-08:00",
+                "start": "2025-12-12T15:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9581,7 +9581,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T13:02:22.0000000-08:00",
+                "start": "2025-12-12T15:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9609,7 +9609,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T13:02:22.0000000-08:00",
+                "start": "2025-12-12T15:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9647,7 +9647,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T13:02:22.0000000-08:00",
+                "start": "2025-12-12T15:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9675,7 +9675,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T13:02:22.0000000-08:00",
+                "start": "2025-12-12T15:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9713,7 +9713,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T13:02:22.0000000-08:00",
+                "start": "2025-12-12T15:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9741,7 +9741,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T13:02:22.0000000-08:00",
+                "start": "2025-12-12T15:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9779,7 +9779,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T17:02:22.0000000-08:00",
+                "start": "2025-12-12T19:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9807,7 +9807,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T17:02:22.0000000-08:00",
+                "start": "2025-12-12T19:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9845,7 +9845,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T17:02:22.0000000-08:00",
+                "start": "2025-12-12T19:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9873,7 +9873,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T17:02:22.0000000-08:00",
+                "start": "2025-12-12T19:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9911,7 +9911,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T17:02:22.0000000-08:00",
+                "start": "2025-12-12T19:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9939,7 +9939,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T17:02:22.0000000-08:00",
+                "start": "2025-12-12T19:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -9977,7 +9977,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T17:02:22.0000000-08:00",
+                "start": "2025-12-12T19:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10005,7 +10005,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T17:02:22.0000000-08:00",
+                "start": "2025-12-12T19:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10043,7 +10043,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T21:02:22.0000000-08:00",
+                "start": "2025-12-12T23:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10071,7 +10071,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T21:02:22.0000000-08:00",
+                "start": "2025-12-12T23:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10109,7 +10109,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T21:02:22.0000000-08:00",
+                "start": "2025-12-12T23:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10137,7 +10137,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T21:02:22.0000000-08:00",
+                "start": "2025-12-12T23:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10175,7 +10175,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T21:02:22.0000000-08:00",
+                "start": "2025-12-12T23:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10203,7 +10203,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T21:02:22.0000000-08:00",
+                "start": "2025-12-12T23:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10241,7 +10241,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T21:02:22.0000000-08:00",
+                "start": "2025-12-12T23:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10269,7 +10269,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-11T21:02:22.0000000-08:00",
+                "start": "2025-12-12T23:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10307,7 +10307,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T01:02:22.0000000-08:00",
+                "start": "2025-12-13T03:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10335,7 +10335,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T01:02:22.0000000-08:00",
+                "start": "2025-12-13T03:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10373,7 +10373,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T01:02:22.0000000-08:00",
+                "start": "2025-12-13T03:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10401,7 +10401,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T01:02:22.0000000-08:00",
+                "start": "2025-12-13T03:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10439,7 +10439,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T01:02:22.0000000-08:00",
+                "start": "2025-12-13T03:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10467,7 +10467,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T01:02:22.0000000-08:00",
+                "start": "2025-12-13T03:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10505,7 +10505,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T01:02:22.0000000-08:00",
+                "start": "2025-12-13T03:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10533,7 +10533,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T01:02:22.0000000-08:00",
+                "start": "2025-12-13T03:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10571,7 +10571,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T05:02:22.0000000-08:00",
+                "start": "2025-12-13T07:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10599,7 +10599,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T05:02:22.0000000-08:00",
+                "start": "2025-12-13T07:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10637,7 +10637,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T05:02:22.0000000-08:00",
+                "start": "2025-12-13T07:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10665,7 +10665,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T05:02:22.0000000-08:00",
+                "start": "2025-12-13T07:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10703,7 +10703,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T05:02:22.0000000-08:00",
+                "start": "2025-12-13T07:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10731,7 +10731,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T05:02:22.0000000-08:00",
+                "start": "2025-12-13T07:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10769,7 +10769,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T05:02:22.0000000-08:00",
+                "start": "2025-12-13T07:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10797,7 +10797,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T05:02:22.0000000-08:00",
+                "start": "2025-12-13T07:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10835,7 +10835,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T09:02:22.0000000-08:00",
+                "start": "2025-12-13T11:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10863,7 +10863,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T09:02:22.0000000-08:00",
+                "start": "2025-12-13T11:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10901,7 +10901,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T09:02:22.0000000-08:00",
+                "start": "2025-12-13T11:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10929,7 +10929,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T09:02:22.0000000-08:00",
+                "start": "2025-12-13T11:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10967,7 +10967,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T09:02:22.0000000-08:00",
+                "start": "2025-12-13T11:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -10995,7 +10995,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T09:02:22.0000000-08:00",
+                "start": "2025-12-13T11:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11033,7 +11033,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T09:02:22.0000000-08:00",
+                "start": "2025-12-13T11:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11061,7 +11061,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T09:02:22.0000000-08:00",
+                "start": "2025-12-13T11:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11099,7 +11099,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T13:02:22.0000000-08:00",
+                "start": "2025-12-13T15:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11127,7 +11127,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T13:02:22.0000000-08:00",
+                "start": "2025-12-13T15:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11165,7 +11165,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T13:02:22.0000000-08:00",
+                "start": "2025-12-13T15:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11193,7 +11193,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T13:02:22.0000000-08:00",
+                "start": "2025-12-13T15:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11231,7 +11231,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T13:02:22.0000000-08:00",
+                "start": "2025-12-13T15:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11259,7 +11259,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T13:02:22.0000000-08:00",
+                "start": "2025-12-13T15:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11297,7 +11297,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T13:02:22.0000000-08:00",
+                "start": "2025-12-13T15:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11325,7 +11325,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T13:02:22.0000000-08:00",
+                "start": "2025-12-13T15:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11363,7 +11363,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T17:02:22.0000000-08:00",
+                "start": "2025-12-13T19:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11391,7 +11391,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T17:02:22.0000000-08:00",
+                "start": "2025-12-13T19:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11429,7 +11429,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T17:02:22.0000000-08:00",
+                "start": "2025-12-13T19:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11457,7 +11457,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T17:02:22.0000000-08:00",
+                "start": "2025-12-13T19:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11495,7 +11495,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T17:02:22.0000000-08:00",
+                "start": "2025-12-13T19:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11523,7 +11523,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T17:02:22.0000000-08:00",
+                "start": "2025-12-13T19:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11561,7 +11561,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T17:02:22.0000000-08:00",
+                "start": "2025-12-13T19:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11589,7 +11589,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T17:02:22.0000000-08:00",
+                "start": "2025-12-13T19:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11627,7 +11627,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T21:02:22.0000000-08:00",
+                "start": "2025-12-13T23:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11655,7 +11655,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T21:02:22.0000000-08:00",
+                "start": "2025-12-13T23:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11693,7 +11693,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T21:02:22.0000000-08:00",
+                "start": "2025-12-13T23:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11721,7 +11721,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T21:02:22.0000000-08:00",
+                "start": "2025-12-13T23:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11759,7 +11759,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T21:02:22.0000000-08:00",
+                "start": "2025-12-13T23:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11787,7 +11787,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T21:02:22.0000000-08:00",
+                "start": "2025-12-13T23:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11825,7 +11825,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T21:02:22.0000000-08:00",
+                "start": "2025-12-13T23:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11853,7 +11853,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-12T21:02:22.0000000-08:00",
+                "start": "2025-12-13T23:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11891,7 +11891,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T01:02:22.0000000-08:00",
+                "start": "2025-12-14T03:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11919,7 +11919,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T01:02:22.0000000-08:00",
+                "start": "2025-12-14T03:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11957,7 +11957,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T01:02:22.0000000-08:00",
+                "start": "2025-12-14T03:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -11985,7 +11985,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T01:02:22.0000000-08:00",
+                "start": "2025-12-14T03:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12023,7 +12023,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T01:02:22.0000000-08:00",
+                "start": "2025-12-14T03:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12051,7 +12051,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T01:02:22.0000000-08:00",
+                "start": "2025-12-14T03:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12089,7 +12089,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T01:02:22.0000000-08:00",
+                "start": "2025-12-14T03:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12117,7 +12117,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T01:02:22.0000000-08:00",
+                "start": "2025-12-14T03:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12155,7 +12155,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T05:02:22.0000000-08:00",
+                "start": "2025-12-14T07:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12183,7 +12183,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T05:02:22.0000000-08:00",
+                "start": "2025-12-14T07:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12221,7 +12221,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T05:02:22.0000000-08:00",
+                "start": "2025-12-14T07:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12249,7 +12249,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T05:02:22.0000000-08:00",
+                "start": "2025-12-14T07:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12287,7 +12287,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T05:02:22.0000000-08:00",
+                "start": "2025-12-14T07:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12315,7 +12315,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T05:02:22.0000000-08:00",
+                "start": "2025-12-14T07:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12353,7 +12353,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T05:02:22.0000000-08:00",
+                "start": "2025-12-14T07:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12381,7 +12381,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T05:02:22.0000000-08:00",
+                "start": "2025-12-14T07:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12419,7 +12419,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T09:02:22.0000000-08:00",
+                "start": "2025-12-14T11:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12447,7 +12447,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T09:02:22.0000000-08:00",
+                "start": "2025-12-14T11:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12485,7 +12485,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T09:02:22.0000000-08:00",
+                "start": "2025-12-14T11:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12513,7 +12513,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T09:02:22.0000000-08:00",
+                "start": "2025-12-14T11:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12551,7 +12551,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T09:02:22.0000000-08:00",
+                "start": "2025-12-14T11:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12579,7 +12579,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T09:02:22.0000000-08:00",
+                "start": "2025-12-14T11:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12617,7 +12617,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T09:02:22.0000000-08:00",
+                "start": "2025-12-14T11:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12645,7 +12645,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T09:02:22.0000000-08:00",
+                "start": "2025-12-14T11:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12683,7 +12683,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T13:02:22.0000000-08:00",
+                "start": "2025-12-14T15:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12711,7 +12711,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T13:02:22.0000000-08:00",
+                "start": "2025-12-14T15:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12749,7 +12749,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T13:02:22.0000000-08:00",
+                "start": "2025-12-14T15:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12777,7 +12777,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T13:02:22.0000000-08:00",
+                "start": "2025-12-14T15:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12815,7 +12815,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T13:02:22.0000000-08:00",
+                "start": "2025-12-14T15:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12843,7 +12843,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T13:02:22.0000000-08:00",
+                "start": "2025-12-14T15:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12881,7 +12881,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T13:02:22.0000000-08:00",
+                "start": "2025-12-14T15:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12909,7 +12909,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T13:02:22.0000000-08:00",
+                "start": "2025-12-14T15:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12947,7 +12947,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T17:02:22.0000000-08:00",
+                "start": "2025-12-14T19:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -12975,7 +12975,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T17:02:22.0000000-08:00",
+                "start": "2025-12-14T19:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13013,7 +13013,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T17:02:22.0000000-08:00",
+                "start": "2025-12-14T19:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13041,7 +13041,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T17:02:22.0000000-08:00",
+                "start": "2025-12-14T19:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13079,7 +13079,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T17:02:22.0000000-08:00",
+                "start": "2025-12-14T19:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13107,7 +13107,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T17:02:22.0000000-08:00",
+                "start": "2025-12-14T19:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13145,7 +13145,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T17:02:22.0000000-08:00",
+                "start": "2025-12-14T19:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13173,7 +13173,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T17:02:22.0000000-08:00",
+                "start": "2025-12-14T19:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13211,7 +13211,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T21:02:22.0000000-08:00",
+                "start": "2025-12-14T23:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13239,7 +13239,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T21:02:22.0000000-08:00",
+                "start": "2025-12-14T23:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13277,7 +13277,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T21:02:22.0000000-08:00",
+                "start": "2025-12-14T23:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13305,7 +13305,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T21:02:22.0000000-08:00",
+                "start": "2025-12-14T23:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13343,7 +13343,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T21:02:22.0000000-08:00",
+                "start": "2025-12-14T23:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13371,7 +13371,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T21:02:22.0000000-08:00",
+                "start": "2025-12-14T23:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13409,7 +13409,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T21:02:22.0000000-08:00",
+                "start": "2025-12-14T23:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13437,7 +13437,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-13T21:02:22.0000000-08:00",
+                "start": "2025-12-14T23:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13475,7 +13475,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T01:02:22.0000000-08:00",
+                "start": "2025-12-15T03:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13503,7 +13503,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T01:02:22.0000000-08:00",
+                "start": "2025-12-15T03:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13541,7 +13541,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T01:02:22.0000000-08:00",
+                "start": "2025-12-15T03:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13569,7 +13569,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T01:02:22.0000000-08:00",
+                "start": "2025-12-15T03:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13607,7 +13607,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T01:02:22.0000000-08:00",
+                "start": "2025-12-15T03:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13635,7 +13635,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T01:02:22.0000000-08:00",
+                "start": "2025-12-15T03:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13673,7 +13673,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T01:02:22.0000000-08:00",
+                "start": "2025-12-15T03:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13701,7 +13701,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T01:02:22.0000000-08:00",
+                "start": "2025-12-15T03:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13739,7 +13739,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T05:02:22.0000000-08:00",
+                "start": "2025-12-15T07:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13767,7 +13767,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T05:02:22.0000000-08:00",
+                "start": "2025-12-15T07:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13805,7 +13805,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T05:02:22.0000000-08:00",
+                "start": "2025-12-15T07:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13833,7 +13833,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T05:02:22.0000000-08:00",
+                "start": "2025-12-15T07:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13871,7 +13871,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T05:02:22.0000000-08:00",
+                "start": "2025-12-15T07:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13899,7 +13899,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T05:02:22.0000000-08:00",
+                "start": "2025-12-15T07:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13937,7 +13937,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T05:02:22.0000000-08:00",
+                "start": "2025-12-15T07:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -13965,7 +13965,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T05:02:22.0000000-08:00",
+                "start": "2025-12-15T07:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14003,7 +14003,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T09:02:22.0000000-08:00",
+                "start": "2025-12-15T11:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14031,7 +14031,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T09:02:22.0000000-08:00",
+                "start": "2025-12-15T11:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14069,7 +14069,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T09:02:22.0000000-08:00",
+                "start": "2025-12-15T11:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14097,7 +14097,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T09:02:22.0000000-08:00",
+                "start": "2025-12-15T11:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14135,7 +14135,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T09:02:22.0000000-08:00",
+                "start": "2025-12-15T11:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14163,7 +14163,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T09:02:22.0000000-08:00",
+                "start": "2025-12-15T11:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14201,7 +14201,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T09:02:22.0000000-08:00",
+                "start": "2025-12-15T11:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14229,7 +14229,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T09:02:22.0000000-08:00",
+                "start": "2025-12-15T11:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14267,7 +14267,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T13:02:22.0000000-08:00",
+                "start": "2025-12-15T15:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14295,7 +14295,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T13:02:22.0000000-08:00",
+                "start": "2025-12-15T15:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14333,7 +14333,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T13:02:22.0000000-08:00",
+                "start": "2025-12-15T15:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14361,7 +14361,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T13:02:22.0000000-08:00",
+                "start": "2025-12-15T15:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14399,7 +14399,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T13:02:22.0000000-08:00",
+                "start": "2025-12-15T15:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14427,7 +14427,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T13:02:22.0000000-08:00",
+                "start": "2025-12-15T15:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14465,7 +14465,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T13:02:22.0000000-08:00",
+                "start": "2025-12-15T15:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14493,7 +14493,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T13:02:22.0000000-08:00",
+                "start": "2025-12-15T15:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14531,7 +14531,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T17:02:22.0000000-08:00",
+                "start": "2025-12-15T19:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14559,7 +14559,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T17:02:22.0000000-08:00",
+                "start": "2025-12-15T19:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14597,7 +14597,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T17:02:22.0000000-08:00",
+                "start": "2025-12-15T19:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14625,7 +14625,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T17:02:22.0000000-08:00",
+                "start": "2025-12-15T19:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14663,7 +14663,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T17:02:22.0000000-08:00",
+                "start": "2025-12-15T19:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14691,7 +14691,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T17:02:22.0000000-08:00",
+                "start": "2025-12-15T19:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14729,7 +14729,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T17:02:22.0000000-08:00",
+                "start": "2025-12-15T19:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14757,7 +14757,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T17:02:22.0000000-08:00",
+                "start": "2025-12-15T19:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14795,7 +14795,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T21:02:22.0000000-08:00",
+                "start": "2025-12-15T23:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14823,7 +14823,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T21:02:22.0000000-08:00",
+                "start": "2025-12-15T23:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14861,7 +14861,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T21:02:22.0000000-08:00",
+                "start": "2025-12-15T23:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14889,7 +14889,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T21:02:22.0000000-08:00",
+                "start": "2025-12-15T23:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14927,7 +14927,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T21:02:22.0000000-08:00",
+                "start": "2025-12-15T23:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14955,7 +14955,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T21:02:22.0000000-08:00",
+                "start": "2025-12-15T23:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -14993,7 +14993,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T21:02:22.0000000-08:00",
+                "start": "2025-12-15T23:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15021,7 +15021,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-14T21:02:22.0000000-08:00",
+                "start": "2025-12-15T23:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15059,7 +15059,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T01:02:22.0000000-08:00",
+                "start": "2025-12-16T03:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15087,7 +15087,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T01:02:22.0000000-08:00",
+                "start": "2025-12-16T03:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15125,7 +15125,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T01:02:22.0000000-08:00",
+                "start": "2025-12-16T03:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15153,7 +15153,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T01:02:22.0000000-08:00",
+                "start": "2025-12-16T03:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15191,7 +15191,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T01:02:22.0000000-08:00",
+                "start": "2025-12-16T03:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15219,7 +15219,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T01:02:22.0000000-08:00",
+                "start": "2025-12-16T03:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15257,7 +15257,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T01:02:22.0000000-08:00",
+                "start": "2025-12-16T03:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15285,7 +15285,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T01:02:22.0000000-08:00",
+                "start": "2025-12-16T03:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15323,7 +15323,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T05:02:22.0000000-08:00",
+                "start": "2025-12-16T07:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15351,7 +15351,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T05:02:22.0000000-08:00",
+                "start": "2025-12-16T07:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15389,7 +15389,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T05:02:22.0000000-08:00",
+                "start": "2025-12-16T07:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15417,7 +15417,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T05:02:22.0000000-08:00",
+                "start": "2025-12-16T07:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15455,7 +15455,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T05:02:22.0000000-08:00",
+                "start": "2025-12-16T07:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15483,7 +15483,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T05:02:22.0000000-08:00",
+                "start": "2025-12-16T07:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15521,7 +15521,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T05:02:22.0000000-08:00",
+                "start": "2025-12-16T07:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15549,7 +15549,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T05:02:22.0000000-08:00",
+                "start": "2025-12-16T07:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15587,7 +15587,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T09:02:22.0000000-08:00",
+                "start": "2025-12-16T11:42:09.978302-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15615,7 +15615,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T09:02:22.0000000-08:00",
+                "start": "2025-12-16T11:42:09.989574-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15653,7 +15653,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T09:02:22.0000000-08:00",
+                "start": "2025-12-16T11:42:09.990938-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15681,7 +15681,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T09:02:22.0000000-08:00",
+                "start": "2025-12-16T11:42:09.991514-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15719,7 +15719,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T09:02:22.0000000-08:00",
+                "start": "2025-12-16T11:42:09.992618-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15747,7 +15747,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T09:02:22.0000000-08:00",
+                "start": "2025-12-16T11:42:09.99362-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15785,7 +15785,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T09:02:22.0000000-08:00",
+                "start": "2025-12-16T11:42:09.994711-08:00",
                 "duration": "PT1H"
               },
               "values": [
@@ -15813,7 +15813,7 @@
             {
               "rating_type": "AmbientAdjusted",
               "period": {
-                "start": "2025-12-15T09:02:22.0000000-08:00",
+                "start": "2025-12-16T11:42:09.997753-08:00",
                 "duration": "PT1H"
               },
               "values": [
