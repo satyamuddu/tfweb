@@ -2,9 +2,8 @@
 using Serilog;
 using System.Reflection;
 using TransmissionFacilityWebApp.Core.Interfaces;
-using TransmissionFacilityWebApp.Infrastructure.DBContext;
-using TransmissionFacilityWebApp.Infrastructure.Persistence.Repository;
-using TransmissionFacilityWebApp.Infrastructure.Persistence;
+using TransmissionFacilityWebApp.DBContext;
+using TransmissionFacilityWebApp.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,7 +21,7 @@ builder.Services.AddScoped<IRatingProposalRepository, RatingProposalRepository>(
 
 //mediatR registration
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Program>());
-//builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining(typeof(TransmissionFacilityWebApp.Application.Features.TransmissionFacilities.Queries.GetTransmissionFacilitiesQuery)));
+//builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining(typeof(TransmissionFacilityWebApp.Application.Queries.GetTransmissionFacilitiesQuery)));
 
 // Add db context registration
 builder.Services.AddDbContext<TransmissionFacilityDbContext>();

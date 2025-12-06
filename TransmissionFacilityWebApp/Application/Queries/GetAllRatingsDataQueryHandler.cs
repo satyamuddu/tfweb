@@ -2,9 +2,10 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
-using TransmissionFacilityWebApp.Application.Features.TransmissionFacilities.Dto;
-using TransmissionFacilityWebApp.Application.Features.TransmissionFacilities.Queries;
+using TransmissionFacilityWebApp.Application.Dto;
 using TransmissionFacilityWebApp.Core.Interfaces;
+namespace TransmissionFacilityWebApp.Application.Queries;
+
 public class GetAllRatingsDataQueryHandler : IRequestHandler<GetAllRatingsDataQuery, RatingsDataDto>
 {
         private readonly ITransmissionFacilityRepository _transmissionFacilityRepository;

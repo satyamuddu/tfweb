@@ -6,7 +6,7 @@ using AsyncLogger;
 
 public class TransformCim2Json
 {
-    private Dictionary<string, Dictionary<string, XElement>> cimXElements;
+    private Dictionary<string, Dictionary<string, XElement>> cimXElements = new();
     string jsonFile = "ratings.json";
     Dictionary<string, string> CoOutputFiles = new Dictionary<string, string>();
     Stack<string> logStrings = new Stack<string>();

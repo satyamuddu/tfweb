@@ -1,9 +1,9 @@
 using System;
 using MediatR;
-using TransmissionFacilityWebApp.Application.Features.TransmissionFacilities.Dto;
+using TransmissionFacilityWebApp.Application.Dto;
 using TransmissionFacilityWebApp.Core.Interfaces;
 
-namespace TransmissionFacilityWebApp.Application.Features.TransmissionFacilities.Queries;
+namespace TransmissionFacilityWebApp.Application.Queries;
 
 public class GetTransmissionFacilitiesHandler : IRequestHandler<GetTransmissionFacilitiesQuery, IEnumerable<TransmissionFacilityDto>>
 {
@@ -29,5 +29,5 @@ public class GetTransmissionFacilitiesHandler : IRequestHandler<GetTransmissionF
         ));
         return (transmissionFacilityDtos);
     }
-   
+
 }

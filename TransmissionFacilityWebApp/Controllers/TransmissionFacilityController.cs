@@ -1,7 +1,7 @@
 using System;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using TransmissionFacilityWebApp.Application.Features.TransmissionFacilities.Queries;
+using TransmissionFacilityWebApp.Application.Queries;
 
 namespace TransmissionFacilityWebApp.Controllers;
 

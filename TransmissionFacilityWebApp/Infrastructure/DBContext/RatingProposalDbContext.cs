@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using CimXml2Json;
 
-namespace TransmissionFacilityWebApp.Infrastructure.DBContext;
+namespace TransmissionFacilityWebApp.DBContext;
 
 
 public class RatingProposalDbContext : DbContext

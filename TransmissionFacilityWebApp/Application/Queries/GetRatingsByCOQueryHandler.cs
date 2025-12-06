@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MediatR;
-using TransmissionFacilityWebApp.Application.Features.TransmissionFacilities.Dto;
+using TransmissionFacilityWebApp.Application.Dto;
 using TransmissionFacilityWebApp.Core.Interfaces;
 using static System.Net.Mime.MediaTypeNames;
 using CimXml2Json;
-namespace TransmissionFacilityWebApp.Application.Features.TransmissionFacilities.Queries;
+namespace TransmissionFacilityWebApp.Application.Queries;
 
 public class GetRatingsByCOQueryHandler : IRequestHandler<GetRatingsByCOQuery, RatingsDataDto>
 {

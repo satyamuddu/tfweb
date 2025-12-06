@@ -13,26 +13,25 @@ namespace TransmissionFacilityWebApp.Controllers
     {
         private readonly IMediator _mediator;
         public RatingProposalController(IMediator mediator) => _mediator = mediator;
-        // GET /api/ratingproposal/{co}
-        [HttpGet("{co}")]
+        // GET /api/ratingproposal/co/{co}
+        [HttpGet("co/{co}")]
         public async Task<IActionResult> GetRatingsByCOQuery(string co)
         {
-            var query = new Application.Features.TransmissionFacilities.Queries.GetRatingsByCOQuery(co);
+            var query = new Application.Queries.GetRatingsByCOQuery(co);
             var result = await _mediator.Send(query);
             return Ok(result);
         }
-        // GET /api/ratingproposal/{bydate}?co=NEEPOOL&fromDate=yyyy-MM-dd&toDate=yyyy-MM-dd
-        [HttpGet("{bydate}")]
+        // GET /api/ratingproposal/bydate?co=NEEPOOL&fromDate=yyyy-MM-dd&toDate=yyyy-MM-dd
+        [HttpGet("bydate")]
         public async Task<IActionResult> GetRatingsByDateQuery([FromQuery] string co, [FromQuery] DateTime fromDate, [FromQuery] DateTime toDate)
         {
             // Validate
-            if (fromDate == null || toDate == null)
-                return BadRequest("fromDate and toDate are required");
+
 
             if (toDate < fromDate)
                 return BadRequest("toDate must be greater than fromDate");
 
-            var query = new Application.Features.TransmissionFacilities.Queries.GetRatingsByDateQuery(fromDate, toDate);
+            var query = new Application.Queries.GetRatingsByDateQuery(fromDate, toDate);
             var result = await _mediator.Send(query);
             return Ok(result);
         }

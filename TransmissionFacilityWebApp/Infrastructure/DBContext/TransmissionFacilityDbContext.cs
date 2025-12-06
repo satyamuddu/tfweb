@@ -1,10 +1,10 @@
 using System;
 using CimXml2Json;
 using Microsoft.EntityFrameworkCore;
-using TransmissionFacilityWebApp.Application.Features.TransmissionFacilities.Dto;
+using TransmissionFacilityWebApp.Application.Dto;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace TransmissionFacilityWebApp.Infrastructure.DBContext;
+namespace TransmissionFacilityWebApp.DBContext;
 
 public class TransmissionFacilityDbContext : DbContext
 {
