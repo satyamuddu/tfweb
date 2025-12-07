@@ -17,6 +17,6 @@ public class RatingProposalDbContext : DbContext
     }
     public async Task<RatingsData> GetRatingProposalByDateAsync(string co, DateTime fromDate, DateTime toDate)
     {
-        return await dataDBContext.GetByCo(co);
+        return await dataDBContext.GetByCo(co, fromDate, toDate);
     }
 }

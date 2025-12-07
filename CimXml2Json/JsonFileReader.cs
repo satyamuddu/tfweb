@@ -35,4 +35,71 @@ public class JsonFileReader
     return ratingsData;
 
   }
+
+  public RatingsData GetByCo(string coId, DateTime fromDate, DateTime toDate)
+  {
+    RatingsData ratingsData = ReadJsonFile(coId);
+
+
+    var ratingsData1 = new RatingsData
+    {
+      transmissionFacilities = ratingsData.transmissionFacilities
+            .Select(tf => new TransmissionFacilities
+            {
+              id = tf.id,
+
+              // Only include segments that have ratings in the date range
+              segments = tf.segments
+                    .Select(seg =>
+                    {
+                      var filteredRatings = seg.ratings
+                      .Where(rat =>
+                      {
+                        var start = rat.period.start;
+                        return start <= toDate && start >= fromDate;
+                      })
+                      .ToList();
+
+                      // Only add segment if it has ratings
+                      return filteredRatings.Any()
+                      ? new Segment
+                      {
+                        id = seg.id,
+                        ratings = filteredRatings
+                      }
+                      : null;
+                    })
+                    .Where(seg => seg != null)        // remove nulls
+                    .Cast<Segment>()                  // cast from Segment? to Segment
+                    .ToList()
+            })
+            // Only add TF if it has segments
+            .Where(tf => tf.segments.Any())
+            .ToList(),
+      comment = ratingsData.comment,
+      id = ratingsData.id
+    };
+
+
+
+
+    /*
+        RatingsData ratingsData1 = new RatingsData
+        {
+          transmissionFacilities = ratingsData.transmissionFacilities.Select(tf => new TransmissionFacilities
+          {
+            id = tf.id,
+            segments = tf.segments.Select(seg => new Segment
+            {
+              id = seg.id,
+              ratings = seg.ratings.Where(rat =>
+              {
+                DateTime ratingStart = rat.period.start;
+                return ratingStart <= toDate && ratingStart >= fromDate;
+              }).ToList()
+            }).ToList()
+          }).ToList()
+        };*/
+    return ratingsData1;
+  }
 }

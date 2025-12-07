@@ -13,4 +13,10 @@ public class DataDBContext
         CimXml2Json.JsonFileReader jsonFileReader = new CimXml2Json.JsonFileReader();
         return Task.FromResult(jsonFileReader.GetByCo(coId));
     }
+
+    public Task<RatingsData> GetByCo(string coId, DateTime fromDate, DateTime toDate)
+    {
+        CimXml2Json.JsonFileReader jsonFileReader = new CimXml2Json.JsonFileReader();
+        return Task.FromResult(jsonFileReader.GetByCo(coId, fromDate, toDate));
+    }
 }
