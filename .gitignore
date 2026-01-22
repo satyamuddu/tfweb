@@ -31,3 +31,5 @@ packages/
 .DS_Store
 CimXml2JsonTest/ECAR_ratings.json
 CimXml2JsonTest/NEPOOL_ratings.json
+CimXml2JsonTest/ECAR_ratings copy.json
+

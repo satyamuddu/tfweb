@@ -19,4 +19,12 @@ public class RatingProposalDbContext : DbContext
     {
         return await dataDBContext.GetByCo(co, fromDate, toDate);
     }
+    public async Task<RatingsData> AddRealTimeRatingAsync(string co, RatingsData newRating)
+    {
+        return await dataDBContext.AddRealTimeRating(co, newRating);
+    }
+    public async Task<RatingsData> AddRealTimeRatingAsync(RatingsData newRating, CancellationToken cancellationToken)
+    {
+        return await dataDBContext.AddRealTimeRating(newRating, cancellationToken);
+    }
 }

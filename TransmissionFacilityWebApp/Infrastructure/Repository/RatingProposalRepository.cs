@@ -16,6 +16,13 @@ public class RatingProposalRepository : IRatingProposalRepository
         _dbContext = dbContext;
     }
 
+
+    public async Task<RatingsData> AddRealTimeRatingAsync(string co, RatingsData newRating) => await _dbContext.AddRealTimeRatingAsync(co,newRating);
+
+    public async Task<RatingsData> AddRealTimeRatingAsync(RatingsData newRating, CancellationToken cancellationToken)
+    => await _dbContext.AddRealTimeRatingAsync(newRating, cancellationToken);
+    
+
     public async Task<RatingsData> GetRatingProposalByCOQueryAsync(string co) => await _dbContext.GetRatingProposalByCOAsync(co);
 
     public async Task<RatingsData> GetRatingProposalByDateQueryAsync(string co, DateTime fromDate, DateTime toDate) => await _dbContext.GetRatingProposalByDateAsync(co, fromDate, toDate);

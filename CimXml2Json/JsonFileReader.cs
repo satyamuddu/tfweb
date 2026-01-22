@@ -1,4 +1,5 @@
 using System;
+using Microsoft.Extensions.Configuration;
 
 namespace CimXml2Json;
 
@@ -7,7 +8,17 @@ public class JsonFileReader
   private RatingsData ReadJsonFile(string coId)
   {
 
-    FilePaths.FilePathMappings.TryGetValue(coId, out string? filePath);
+    // Load configuration
+var configuration = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    .Build();
+
+// Initialize FilePaths with configuration
+var filePaths = new FilePaths(configuration);
+FilePaths.Instance = filePaths;
+    filePaths.FilePathMappings.TryGetValue(coId, out string? filePath);
+    
     if (filePath == null)
     {
       throw new Exception($"File path for CO ID '{coId}' not found.");

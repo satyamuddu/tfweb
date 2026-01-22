@@ -35,5 +35,31 @@ namespace TransmissionFacilityWebApp.Controllers
             var result = await _mediator.Send(query);
             return Ok(result);
         }
+        [HttpPost("newrealtime")]
+        public async Task<ActionResult> NewRealTime([FromBody] Application.Commands.RealTimeRatingCommand command)
+        {
+            try
+            {
+                var newRating = await _mediator.Send(command);
+                return CreatedAtAction("NewRealTime", new { id = newRating.id }, newRating);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpPost("newrealtime2")]
+        public async Task<ActionResult> NewRealTime2([FromBody] Application.Commands.RealTimeRatingCommand2 command)
+        {
+            try
+            {
+                var newRating = await _mediator.Send(command);
+                return CreatedAtAction("NewRealTime2", new { id = newRating.id }, newRating);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
