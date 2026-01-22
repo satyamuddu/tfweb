@@ -1,20 +1,9 @@
-using System;
-using System.Reflection.Metadata.Ecma335;
 using Microsoft.Extensions.Configuration;
-
 namespace CimXml2Json;
 
-public class JsonFileWriter
+public class JsonFileUpdater
 {
-
-
-    public static string GetCompanyFromId(string id)
-    {
-        string company = id.Trim();
-        string co = company.Substring(0, company.IndexOf(' '));
-        return co;
-    }
-    public RatingsData AddRealTimeRating(RatingsData newRating, CancellationToken cancellationToken)
+    public RatingsData UpdateRating(RatingsData newRating, CancellationToken cancellationToken)
     {
         if (newRating == null || newRating.transmissionFacilities == null || newRating.transmissionFacilities.Count == 0)
         {
@@ -24,7 +13,7 @@ public class JsonFileWriter
         cancellationToken.ThrowIfCancellationRequested();
 
         string company = newRating.transmissionFacilities[0].id.Trim();
-        string co = GetCompanyFromId(company);
+        string co = JsonFileWriter.GetCompanyFromId(company);
         company = co;
         //1. DeSerialize RatingsData to JSON
         JsonFileReader jsonFileReader = new JsonFileReader();
@@ -37,14 +26,36 @@ public class JsonFileWriter
 
             foreach (var tf in newRating.transmissionFacilities)
             {
-                existingRatingsData.transmissionFacilities.Add(tf);
-            }
+                //existingRatingsData.transmissionFacilities.Where(a=> a.id == tf.id).ToList().ForEach(a => existingRatingsData.transmissionFacilities.Remove(a));
+                //existingRatingsData.transmissionFacilities.Add(tf);
 
+                var existingTf = existingRatingsData.transmissionFacilities.FirstOrDefault(a => a.id == tf.id);
+                if (existingTf != null)
+                {
+                    existingRatingsData.transmissionFacilities.Remove(existingTf);
+                    existingRatingsData.transmissionFacilities.Add(tf);
+
+                    foreach (var segment in tf.segments)
+                    {
+                        var existingSegment = existingTf.segments.FirstOrDefault(s => s.id == segment.id);
+                        if (existingSegment != null)
+                        {
+                            existingTf.segments.Remove(existingSegment);
+                            existingTf.segments.Add(segment);
+                        }
+                    }
+                }
+                else
+                {
+                    existingRatingsData.transmissionFacilities.Add(tf);
+                }
+            }
         }
         else
         {
-            existingRatingsData = newRating;
+            throw new Exception($"No existing data for CO ID '{company}' not found.");
         }
+
         newRating = existingRatingsData;
 
         string jsonContent = System.Text.Json.JsonSerializer.Serialize(newRating, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
@@ -66,5 +77,4 @@ public class JsonFileWriter
         System.IO.File.WriteAllText(filePath, jsonContent);
         return newRating;
     }
-
 }

@@ -27,4 +27,7 @@ public class RatingProposalDbContext : DbContext
     {
         return await dataDBContext.AddRealTimeRating(newRating, cancellationToken);
     }
+
+    internal async Task<RatingsData> UpdateRatingAsync(RatingsData ratingsData, CancellationToken cancellationToken)
+    => await dataDBContext.UpdateRating(ratingsData, cancellationToken);
 }

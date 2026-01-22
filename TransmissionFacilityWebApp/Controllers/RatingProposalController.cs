@@ -35,7 +35,7 @@ namespace TransmissionFacilityWebApp.Controllers
             var result = await _mediator.Send(query);
             return Ok(result);
         }
-        [HttpPost("newrealtime")]
+        /*[HttpPost("newrealtime")]
         public async Task<ActionResult> NewRealTime([FromBody] Application.Commands.RealTimeRatingCommand command)
         {
             try
@@ -47,8 +47,8 @@ namespace TransmissionFacilityWebApp.Controllers
             {
                 return BadRequest(ex.Message);
             }
-        }
-        [HttpPost("newrealtime2")]
+        }*/
+        [HttpPost("newrealtime")]
         public async Task<ActionResult> NewRealTime2([FromBody] Application.Commands.RealTimeRatingCommand2 command)
         {
             try
@@ -61,5 +61,20 @@ namespace TransmissionFacilityWebApp.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [HttpPatch("updaterating")]
+        public async Task<IActionResult> UpdateRating([FromBody] Application.Commands.UpdateRatingCommand command)
+        {
+
+            try
+            {
+                var updatedRating = await _mediator.Send(command);
+                return Ok(updatedRating);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
     }
 }
