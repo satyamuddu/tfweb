@@ -8,32 +8,62 @@ public class JsonFileWriter
 {
 
 
-public RatingsData AddRealTimeRating(RatingsData newRating, CancellationToken cancellationToken)
+    public static string GetCompanyFromId(string id)
     {
-        string jsonContent = System.Text.Json.JsonSerializer.Serialize(newRating, new System.Text.Json.JsonSerializerOptions { WriteIndented = true }); 
-        foreach (var coId in newRating.transmissionFacilities)
+        string company = id.Trim();
+        string co = company.Substring(0, company.IndexOf(' '));
+        return co;
+    }
+    public RatingsData AddRealTimeRating(RatingsData newRating, CancellationToken cancellationToken)
+    {
+        if (newRating == null || newRating.transmissionFacilities == null || newRating.transmissionFacilities.Count == 0)
         {
-            // Check for cancellation
-            cancellationToken.ThrowIfCancellationRequested();
+            throw new ArgumentNullException(nameof(newRating), "RatingsData cannot be null or have empty transmission facilities.");
+        }
+        // Check for cancellation
+        cancellationToken.ThrowIfCancellationRequested();
 
-            // Load configuration
-            var configuration = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .Build();
+        string company = newRating.transmissionFacilities[0].id.Trim();
+        string co = GetCompanyFromId(company);
+        company = co;
+        //1. DeSerialize RatingsData to JSON
+        JsonFileReader jsonFileReader = new JsonFileReader();
+        var existingRatingsData = jsonFileReader.GetByCo(co);
+        if (existingRatingsData != null)
+        {
+            // Merge logic: Here we simply replace existing transmissionFacilities with new ones
+            //existingRatingsData.transmissionFacilities = newRating.transmissionFacilities;
+            //newRating = existingRatingsData;
 
-            // Initialize FilePaths with configuration
-            var filePaths = new FilePaths(configuration);
-            FilePaths.Instance = filePaths;
-            filePaths.FilePathMappings.TryGetValue(coId.id, out string? filePath);
-
-            if (filePath == null)
+            foreach (var tf in newRating.transmissionFacilities)
             {
-                throw new Exception($"File path for CO ID '{coId}' not found.");
+                existingRatingsData.transmissionFacilities.Add(tf);
             }
 
-            System.IO.File.WriteAllText(filePath, jsonContent);
         }
+        else
+        {
+            existingRatingsData = newRating;
+        }
+        newRating = existingRatingsData;
+
+        string jsonContent = System.Text.Json.JsonSerializer.Serialize(newRating, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+        var configuration = new ConfigurationBuilder()
+                      .SetBasePath(Directory.GetCurrentDirectory())
+                      .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                      .Build();
+
+        // Initialize FilePaths with configuration
+        var filePaths = new FilePaths(configuration);
+        FilePaths.Instance = filePaths;
+        filePaths.FilePathMappings.TryGetValue(company, out string? filePath);
+
+        if (filePath == null)
+        {
+            throw new Exception($"File path for CO ID '{company}' not found.");
+        }
+
+        System.IO.File.WriteAllText(filePath, jsonContent);
         return newRating;
     }
 
@@ -42,26 +72,26 @@ public RatingsData AddRealTimeRating(RatingsData newRating, CancellationToken ca
     {
         string jsonContent = System.Text.Json.JsonSerializer.Serialize(newRating, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
 
-    // Load configuration
-var configuration = new ConfigurationBuilder()
-    .SetBasePath(Directory.GetCurrentDirectory())
-    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-    .Build();
+        // Load configuration
+        var configuration = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+            .Build();
 
-// Initialize FilePaths with configuration
-var filePaths = new FilePaths(configuration);
-FilePaths.Instance = filePaths;
-    filePaths.FilePathMappings.TryGetValue(coId, out string? filePath);
-    
-    if (filePath == null)
-    {
-      throw new Exception($"File path for CO ID '{coId}' not found.");
-    }
+        // Initialize FilePaths with configuration
+        var filePaths = new FilePaths(configuration);
+        FilePaths.Instance = filePaths;
+        filePaths.FilePathMappings.TryGetValue(coId, out string? filePath);
+
+        if (filePath == null)
+        {
+            throw new Exception($"File path for CO ID '{coId}' not found.");
+        }
 
 
 
         System.IO.File.WriteAllText(filePath, jsonContent);
         return newRating;
     }
-        
+
 }
