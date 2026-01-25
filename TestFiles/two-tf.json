@@ -1,0 +1,62 @@
+{
+  "ratings-proposal-id": "ECAR ECAR SATYA",
+  "comment": "string",
+  "transmission-facilities": [
+    {
+      "id": "ECAR ECAR SATYA",
+      "segments": [
+        {
+          "id": "string",
+          "ratings": [
+            {
+              "rating_type": "string",
+              "period": {
+                "start": "2026-01-25T11:27:55.922Z",
+                "duration": "string"
+              },
+              "values": [
+                {
+                  "name": "string",
+                  "value": "string",
+                  "unit": "string"
+                }
+              ],
+              "metadata": {
+                "sourceSystem": "string",
+                "calculationMethod": "string"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ECAR ECAR SATYA",
+      "segments": [
+        {
+          "id": "string",
+          "ratings": [
+            {
+              "rating_type": "string",
+              "period": {
+                "start": "2026-01-25T11:27:55.922Z",
+                "duration": "string"
+              },
+              "values": [
+                {
+                  "name": "string",
+                  "value": "string",
+                  "unit": "string"
+                }
+              ],
+              "metadata": {
+                "sourceSystem": "string",
+                "calculationMethod": "string"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
