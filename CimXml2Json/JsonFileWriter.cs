@@ -28,7 +28,15 @@ public class JsonFileWriter
         company = co;
         //1. DeSerialize RatingsData to JSON
         JsonFileReader jsonFileReader = new JsonFileReader();
-        var existingRatingsData = jsonFileReader.GetByCo(co);
+        RatingsData existingRatingsData = null;
+        try
+        {
+            existingRatingsData = jsonFileReader.GetByCo(co);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"{ex.Message} : No existing data found for CO: {co}. A new file will be created.");
+        }
         if (existingRatingsData != null)
         {
             // Merge logic: Here we simply replace existing transmissionFacilities with new ones

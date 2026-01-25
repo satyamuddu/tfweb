@@ -9,20 +9,25 @@ public class JsonFileReader
   {
 
     // Load configuration
-var configuration = new ConfigurationBuilder()
-    .SetBasePath(Directory.GetCurrentDirectory())
-    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-    .Build();
+    var configuration = new ConfigurationBuilder()
+        .SetBasePath(Directory.GetCurrentDirectory())
+        .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+        .Build();
 
-// Initialize FilePaths with configuration
-var filePaths = new FilePaths(configuration);
-FilePaths.Instance = filePaths;
+    // Initialize FilePaths with configuration
+    var filePaths = new FilePaths(configuration);
+    FilePaths.Instance = filePaths;
     filePaths.FilePathMappings.TryGetValue(coId, out string? filePath);
-    
+
     if (filePath == null)
     {
       throw new Exception($"File path for CO ID '{coId}' not found.");
     }
+    if (!File.Exists(filePath))
+    {
+      throw new Exception($"File does not exist at path '{filePath}'.");
+    }
+
     // Implementation for reading JSON file
     var jsonData = System.IO.File.ReadAllText(filePath);
 

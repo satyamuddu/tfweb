@@ -13,6 +13,12 @@ FilePaths.Instance = filePaths;
 
 Console.WriteLine("Hello, World!");
 
+var ratingsData5 = PrepareTestData.GetRatingsData();
+CimXml2Json.JsonFileWriter jsonFileWriter5 = new CimXml2Json.JsonFileWriter();
+jsonFileWriter5.AddRealTimeRating(ratingsData5, CancellationToken.None);
+
+
+
 TransformCim2Json transformCim2Json = new TransformCim2Json();
 
 transformCim2Json.Parse(filePaths.XmlFilePath);
